@@ -1,0 +1,3407 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ionsonus virbius: or, The memorie of Ben: Iohnson revived by the friends of the Muses</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1638</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 125 KB of XML-encoded text transcribed from 46 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B14293</idno>
+            <idno type="STC">STC 14784</idno>
+            <idno type="STC">ESTC S107894</idno>
+            <idno type="EEBO-CITATION">99843586</idno>
+            <idno type="PROQUEST">99843586</idno>
+            <idno type="VID">173154</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B14293)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 173154)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 757:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Ionsonus virbius: or, The memorie of Ben: Iohnson revived by the friends of the Muses</title>
+                  <author>Duppa, Brian, 1588-1662.</author>
+               </titleStmt>
+               <extent>[4], 32, 25-74, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E. P[urslowe] for Henry Seile, and are to be sold at his shop, at the Tygers Head in Fleetstreet, over-against Saint Dunstans Church,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1638.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Edited by Brian Duppa.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>The last leaf is blank.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Jonson, Ben, 1573?-1637 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-01</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2014-01</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:173154:1" rendition="simple:additions"/>
+            <p>IONSONVS VIRBIVS: OR, THE MEMORIE OF <hi>BEN: JOHNSON</hi> REVIVED BY THE FRIENDS OF THE <hi>M<g ref="char:V">Ʋ</g>SES.</hi>
+            </p>
+            <figure>
+               <q>NOLI ALTVM SAPERE</q>
+               <figDesc>printer's device of Elizabeth Purslowe</figDesc>
+            </figure>
+            <p>LONDON, Printed by <hi>E. P.</hi> for <hi>Henry Seile,</hi> and are to be ſold at his ſhop, at the Tygers Head in <hi>Fleetſtreet,</hi> over-againſt Saint <hi>Dunstans</hi> Church. 1638.</p>
+         </div>
+         <div type="printer_to_the_reader">
+            <pb facs="tcp:173154:2"/>
+            <pb facs="tcp:173154:2"/>
+            <head>THE PRINTER TO THE READER.</head>
+            <p>'<seg rend="decorInit">T</seg>Is now about ſixe moneths ſince the moſt learned and judicious Poet, <hi>B. IOHN<g ref="char:EOLhyphen"/>SON,</hi> became a <hi>ſubject</hi> for theſe <hi>Elegies.</hi> The time <hi>interjected</hi> betweene his <hi>death</hi> and the publiſhing of theſe, ſhewes that ſo great an <hi>Ar<g ref="char:EOLhyphen"/>gument</hi> ought to be conſider'd, before handled; not that the <hi>Gentlemens affections</hi> were leſſe readie to <hi>grieve,</hi> but their <hi>judgements</hi> to <hi>write.</hi> At length the looſe <hi>Papers</hi> were conſign'd to the hands of a <hi>Gentleman,</hi> who
+<pb facs="tcp:173154:3"/> truly <hi>honor'd</hi> Him (for he knew why he did ſo) To his <hi>care</hi> you are behol<g ref="char:EOLhyphen"/>ding that they are now made <hi>yours.</hi> And he was willing to let you <hi>know</hi> the <hi>value</hi> of what you have <hi>loſt,</hi> that you might the better <hi>recommend</hi> what you have <hi>left</hi> of Him, to your <hi>poſteritie.</hi>
+            </p>
+            <closer>
+               <salute>Farewell.</salute>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="play">
+            <pb n="1" facs="tcp:173154:3"/>
+            <head>An Eglogue on the Death of BEN- IOHNSON, betweene <hi>Melybaeus</hi> and <hi>Hylas.</hi>
+            </head>
+            <sp>
+               <speaker>MELYBEVS.</speaker>
+               <l>
+                  <hi>
+                     <seg rend="decorInit">H</seg>Ylas,</hi> the cleare <hi>day</hi> boaſts a glorious <hi>Sunne,</hi>
+               </l>
+               <l>Our <hi>Troope</hi> is ready, and our <hi>time</hi> is come:</l>
+               <l>That <hi>Fox</hi> who hath ſo long our <hi>Lambs</hi> deſtroi'd,</l>
+               <l>And daily in his proſperous rapine joy'd,</l>
+               <l>Is <hi>earth'd</hi> not farre from hence, old <hi>Aegons</hi> ſonne,</l>
+               <l>Rough <hi>Corilas,</hi> and luſty <hi>Corydon,</hi>
+               </l>
+               <l>In part the <hi>ſport,</hi> in part revenge deſire,</l>
+               <l>And both thy <hi>Tarrier</hi> and thy <hi>Aid</hi> require.</l>
+               <l>Haſte, for by this, but that for thee wee ſtaid,</l>
+               <l>The <hi>Prey-devourer</hi> had our <hi>prey</hi> bin made.</l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>Oh! <hi>Melibaeus</hi> now I liſt not hunt,</l>
+               <l>Nor have that <hi>vigor</hi> as before I wont;</l>
+               <l>My preſence will afford them no reliefe,</l>
+               <l>That <hi>Beast</hi> I ſtrive to chaſe is only <hi>griefe.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Mel.</speaker>
+               <l>What meane thy folded <hi>Armes,</hi> thy downe-caſt <hi>eyes,</hi>
+               </l>
+               <l>
+                  <hi>Teares</hi> which ſo faſt deſcend, and <hi>ſighs</hi> which riſe?</l>
+               <l>What meane thy words which ſo diſtracted fall,</l>
+               <l>As all Thy <hi>Loyes</hi> had now one funerall?</l>
+               <l>Cauſe for ſuch <hi>griefe,</hi> can out retirements yeeld?</l>
+               <l>That followes <hi>Courts,</hi> but ſtoopes not to the field.</l>
+               <pb n="2" facs="tcp:173154:4"/>
+               <l>Hath thy ſterne <hi>ſtep-dame</hi> to thy <hi>ſire</hi> reveal'd</l>
+               <l>Some youthful act, which thou couldſt wiſh conceal'd?</l>
+               <l>Part of thy <hi>Heard</hi> hath ſome cloſe thiefe convey'd</l>
+               <l>From open paſtures to a darker ſhade?</l>
+               <l>Part of thy flocke hath ſome fierce <hi>Torrent</hi> drown'd?</l>
+               <l>Thy harveſt fail'd? or <hi>Amarillis</hi> frown'd?</l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>Nor <hi>Love,</hi> nor <hi>Anger, Accident</hi> nor <hi>Thiefe,</hi>
+               </l>
+               <l>Hath rais'd the waves of my unbounded griefe:</l>
+               <l>To cure this <hi>cauſe,</hi> I would provoke the ire</l>
+               <l>Of my <hi>fierce Step-dame</hi> or ſeverer <hi>Sire,</hi>
+               </l>
+               <l>Give all my <hi>Heards, Fields, Flocks,</hi> and all the grace,</l>
+               <l>That ever ſhone in <hi>Amarillis</hi> Face.</l>
+               <l>Alas, that <hi>Bard,</hi> that glorious <hi>Bard</hi> is dead,</l>
+               <l>Who when I whilome Cities viſited,</l>
+               <l>Hath made them ſeeme, but <hi>houres</hi> which were full <hi>dayes,</hi>
+               </l>
+               <l>Whilſt he vouchſaft me his harmonious <hi>layes:</hi>
+               </l>
+               <l>And when <hi>He</hi> liv'd, I thought the countrey th en</l>
+               <l>A <hi>torture,</hi> and no <hi>Manſion,</hi> but a <hi>Den.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Mel.</speaker>
+               <l>JOHNSON you meane, unleſſe I much doe erre,</l>
+               <l>I know the <hi>Perſon</hi> by the <hi>Character.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>You gueſſe aright, it is too truely ſo,</l>
+               <l>From no leſſe <hi>ſpring</hi> could all theſe <hi>Rivers</hi> flow.</l>
+            </sp>
+            <sp>
+               <speaker>Mel.</speaker>
+               <l>Ah <hi>Hylas!</hi> then thy <hi>griefe</hi> I cannot call</l>
+               <l>A <hi>paſſion,</hi> when the ground is <hi>rationall.</hi>
+               </l>
+               <l>I now excuſe thy <hi>teares</hi> and <hi>ſighs,</hi> though thoſe</l>
+               <l>To <hi>deluges,</hi> and theſe to <hi>tempests</hi> roſe:</l>
+               <l>Her great inſtructer gone, I know the <hi>Age</hi>
+               </l>
+               <l>No leſſe laments then doth the <hi>widdow'd ſtage,</hi>
+               </l>
+               <l>And onely <hi>Vice</hi> and <hi>Folly, now</hi> are glad,</l>
+               <l>Our <hi>Gods</hi> are troubled, and our <hi>Prince</hi> is ſad:</l>
+               <l>He chiefly who beſtowes <hi>light, health</hi> and <hi>art,</hi>
+               </l>
+               <l>Feeles this ſharpe griefe pierce his immortall heart,</l>
+               <l>He his neglected <hi>Lire</hi> away hath throwne,</l>
+               <l>And wept a larger nobler <hi>Helicon,</hi>
+               </l>
+               <pb n="3" facs="tcp:173154:4"/>
+               <l>To finde his <hi>Hearbs,</hi> which to his wiſh prevaile,</l>
+               <l>For the leſſe lov'd ſhould his owne <hi>favorite</hi> faile:</l>
+               <l>So moan'd himſelfe when <hi>Daphne</hi> he ador'd,</l>
+               <l>That <hi>arts</hi> relieving al, ſhould faile their Lord:</l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>But ſay, from whence in thee this knowledge ſprings,</l>
+               <l>Of what his <hi>favour</hi> was with <hi>Gods</hi> and <hi>Kings.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Mel.</speaker>
+               <l>
+                  <hi>Dorus,</hi> who long had known <hi>books, men,</hi> &amp; <hi>townes,</hi>
+               </l>
+               <l>At laſt the honour of our <hi>Woods</hi> and <hi>Downes,</hi>
+               </l>
+               <l>Had often heard his Songs, was often fir'd</l>
+               <l>With their inchanting power, ere he retir'd,</l>
+               <l>And ere himſelfe to our ſtill <hi>groves</hi> he brought,</l>
+               <l>To meditate on what his <hi>Muſe</hi> had taught:</l>
+               <l>Here all his joy was to revolve alone,</l>
+               <l>All that <hi>her</hi> Muſicke to his ſoule had ſhowne,</l>
+               <l>Or in all <hi>meetings</hi> to divert the ſtreame</l>
+               <l>Of our <hi>diſcourſe;</hi> and make his <hi>Friend</hi> his <hi>Theame,</hi>
+               </l>
+               <l>And praiſing works which that rare <hi>Loome</hi> hath weav'd,</l>
+               <l>Impart that pleaſure which he had receav'd,</l>
+               <l>So in ſweet <hi>notes</hi> (which did all <hi>tunes</hi> excell,</l>
+               <l>But what he prais'd) I oft have heard him tell</l>
+               <l>Of His rare <hi>Pen,</hi> what was the uſe and price,</l>
+               <l>The Bayes of <hi>Vertue</hi> and the ſcourge of <hi>Vice:</hi>
+               </l>
+               <l>How the rich ignorant he valued leaſt,</l>
+               <l>Nor for the <hi>trappings</hi> would eſteeme the <hi>beaſt:</hi>
+               </l>
+               <l>But did our youth to noble actions raiſe,</l>
+               <l>Hoping the meed of his immortall praiſe:</l>
+               <l>How bright and ſoone His <hi>Muſes</hi> morning ſhone,</l>
+               <l>Her <hi>Noone</hi> how laſting, and her <hi>Evening</hi> none:</l>
+               <l>How <hi>ſpeech</hi> exceeds not dumbeneſſe, nor verſe <hi>proſe,</hi>
+               </l>
+               <l>More then His verſe the low rough rimes of thoſe,</l>
+               <l>(For ſuch his ſeene, they ſeem'd,) who higheſt rear'd,</l>
+               <l>Poſſeſt <hi>Parnaſsus</hi> ere his power appear'd:</l>
+               <l>Nor ſhall another <hi>Pen</hi> his <hi>fame</hi> diſſolve,</l>
+               <l>Till we this doubtfull <hi>Probleme</hi> can reſolve,</l>
+               <pb n="4" facs="tcp:173154:5"/>
+               <l>Which in his <hi>workes</hi> we moſt tranſcendent ſee,</l>
+               <l>
+                  <hi>Wit, Iudgement, Learning, Art,</hi> or <hi>Induſtry,</hi>
+               </l>
+               <l>Which <hi>Till</hi> is Never, ſo all jointly flow,</l>
+               <l>And each doth to an equall <hi>Torrent</hi> grow:</l>
+               <l>His <hi>Learning</hi> ſuch, no <hi>Author</hi> old nor new,</l>
+               <l>Eſcapt his reading that deſerv'd his view,</l>
+               <l>And ſuch his <hi>Iudgement,</hi> ſo exact his <hi>Teſt,</hi>
+               </l>
+               <l>Of what was beſt in <hi>Bookes,</hi> as what <hi>bookes</hi> beſt,</l>
+               <l>That had he joyn'd thoſe notes his Labours tooke,</l>
+               <l>From each moſt prais'd and praiſe-deſerving <hi>Booke,</hi>
+               </l>
+               <l>And could the world of that choiſe <hi>Treaſure</hi> boaſt,</l>
+               <l>It need not care though all the reſt were loſt:</l>
+               <l>And ſuch his Wit, He writ paſt what he quotes,</l>
+               <l>And his <hi>Productions</hi> farre exceed his <hi>Notes:</hi>
+               </l>
+               <l>So in his workes where ought inferred growes,</l>
+               <l>The nobleſt of the <hi>Plants</hi> engrafted ſhowes,</l>
+               <l>That his adopted Children equall not,</l>
+               <l>The generous Iſſue his owne Braine begot:</l>
+               <l>So great his Art, that much which he did write,</l>
+               <l>Gave the wiſe <hi>wonder,</hi> and the <hi>Crowd</hi> delight,</l>
+               <l>Each ſort as well as <hi>ſex</hi> admir'd his Wit,</l>
+               <l>The Hees and Shees, the Boxes, and the Pit;</l>
+               <l>And who leſſe lik't within, did rather chuſe</l>
+               <l>To taxe their Iudgements then ſuſpect his Muſe,</l>
+               <l>How no ſpectator his chaſte ſtage could call</l>
+               <l>The cauſe of any crime of his, but all</l>
+               <l>With thoughts and wils purg'd and amended riſe,</l>
+               <l>From th' <hi>Ethicke Lectures</hi> of his <hi>Comedies,</hi>
+               </l>
+               <l>Where the Spectators act, and the ſham'd age</l>
+               <l>Bluſheth to meet her follies on the ſtage;</l>
+               <l>Where each man finds ſome <hi>Light</hi> he never ſought,</l>
+               <l>And leaves behind ſome vanitie he brought,</l>
+               <l>Whoſe Politicks no leſſe the minds direct,</l>
+               <l>Then theſe the manners, nor with leſſe effect,</l>
+               <pb n="5" facs="tcp:173154:5"/>
+               <l>When his Majeſticke <hi>Tragedies</hi> relate</l>
+               <l>All the diſorders of a Tottering ſtate,</l>
+               <l>All the diſtempers which on Kingdomes fall,</l>
+               <l>When <hi>eaſe,</hi> and <hi>wealth,</hi> and <hi>vice</hi> are generall,</l>
+               <l>And yet the minds againſt all feare aſſure,</l>
+               <l>And telling the diſeaſe, preſcribe the Cure:</l>
+               <l>Where, as he tels what ſubtle wayes, what friends,</l>
+               <l>(Seeking their wicked and their <hi>wiſht</hi> for ends)</l>
+               <l>
+                  <hi>Ambitious</hi> and <hi>luxurious Perſons</hi> prove,</l>
+               <l>Whom vaſt deſires, or mighty wants doth move,</l>
+               <l>The generall <hi>Frame,</hi> to <hi>ſay</hi> and <hi>undermine,</hi>
+               </l>
+               <l>In proud <hi>Sejanus,</hi> and bold <hi>Cateline;</hi>
+               </l>
+               <l>So in his vigilant <hi>Prince</hi> and <hi>Conſuls</hi> parts,</l>
+               <l>He ſhewes the wiſer and the nobler <hi>Arts,</hi>
+               </l>
+               <l>By which a <hi>state</hi> may be unhurt, <hi>upheld,</hi>
+               </l>
+               <l>And all thoſe <hi>workes</hi> deſtroy'd, which <hi>hell</hi> would build.</l>
+               <l>Who (not like thoſe who with ſmall praiſe had writ,</l>
+               <l>Had they not cal'd in <hi>Iudgement</hi> to their <hi>Wit</hi>)</l>
+               <l>Vs'd not a tutoring hand his to direct,</l>
+               <l>But was ſole <hi>Workeman</hi> and ſole <hi>Architect:</hi>
+               </l>
+               <l>And ſure by what my Friend did daily tell,</l>
+               <l>If he but <hi>acted</hi> his owne part as well</l>
+               <l>As he writ thoſe of others, he may boaſt,</l>
+               <l>The happy <hi>fields</hi> hold not a happier <hi>ghoſt.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>Strangers will thinke this ſtrange, yet he (deare Youth,</l>
+               <l>Where moſt he paſt <hi>beleefe,</hi> fell ſhort of <hi>Truth:</hi>
+               </l>
+               <l>Say on, what more he ſaid, this gives reliefe,</l>
+               <l>And though it raiſe my <hi>cauſe,</hi> it bates my <hi>griefe,</hi>
+               </l>
+               <l>Since Fates decreed him now no longer liv'd,</l>
+               <l>
+                  <hi>I joy to heare him by thy Friend reviv'd.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Mel.</speaker>
+               <l>More he would ſay, and better, (but I ſpoile</l>
+               <l>His ſmoother <hi>words</hi> with my unpoliſht <hi>ſtile</hi>)</l>
+               <l>And having told what pitch his <hi>worth</hi> attain'd,</l>
+               <l>He then would tell us what <hi>Reward</hi> it gain'd;</l>
+               <pb n="6" facs="tcp:173154:6"/>
+               <l>How in an <hi>ignorant,</hi> and <hi>learn'd</hi> age he ſwaid,</l>
+               <l>(Of which the firſt he found, the ſecond made)</l>
+               <l>How He, when he could know it, reapt his <hi>Fame,</hi>
+               </l>
+               <l>And long out-liv'd the envy of his Name:</l>
+               <l>To him how daily <hi>flockt,</hi> what <hi>reverence</hi> gave,</l>
+               <l>All that had <hi>wit,</hi> or would be thought to have,</l>
+               <l>Or hope to gaine, and in ſo large a ſtore,</l>
+               <l>That to his <hi>Aſhes</hi> they can pay no more,</l>
+               <l>Except thoſe few who <hi>cenſuring,</hi> thought not ſo,</l>
+               <l>But aim'd at glory from ſo great a <hi>foe:</hi>
+               </l>
+               <l>How the wiſe too, did with meere <hi>wits</hi> agree,</l>
+               <l>As <hi>Pembroke, Portland,</hi> and grave <hi>Aubigny;</hi>
+               </l>
+               <l>Nor thought the rigidſt <hi>Senator</hi> a ſhame,</l>
+               <l>To contribute to ſo deſerv'd a <hi>fame:</hi>
+               </l>
+               <l>How great <hi>Eliza,</hi> the <hi>Retreate</hi> of thoſe,</l>
+               <l>Who weake and injur'd her protection choſe,</l>
+               <l>Her Subjects joy, the <hi>ſtrength</hi> of her <hi>Allies,</hi>
+               </l>
+               <l>The <hi>feare</hi> and <hi>wonder</hi> of her <hi>Enemies,</hi>
+               </l>
+               <l>With her judicious <hi>favours</hi> did infuſe</l>
+               <l>
+                  <hi>Courage</hi> and <hi>ſtrength</hi> into his yonger <hi>Muſe:</hi>
+               </l>
+               <l>How learned JAMES, whoſe praiſe no end ſhall finde,</l>
+               <l>(But ſtill enjoy a Fame pure like his <hi>Mind</hi>)</l>
+               <l>Who favour'd <hi>quiet,</hi> and the Arts of <hi>Peace,</hi>
+               </l>
+               <l>(Which in his <hi>Halcion</hi> dayes found large encreaſe)</l>
+               <l>Friend to the humbleſt if deſerving <hi>Swaine,</hi>
+               </l>
+               <l>Who was himſelfe a part of <hi>Phaebus</hi> Traine,</l>
+               <l>Declar'd great JOHNSON worthieſt to receive</l>
+               <l>The <hi>Garland</hi> which the <hi>Muſes</hi> hands did weave,</l>
+               <l>And though his <hi>Bounty</hi> did ſuſtaine his <hi>dayes,</hi>
+               </l>
+               <l>Gave a more welcome <hi>Penſion</hi> in his praiſe:</l>
+               <l>How mighty <hi>Charles</hi> amidſt that Weighty care,</l>
+               <l>In which three Kingdomes as their <hi>Bleſſing</hi> ſhare,</l>
+               <l>Whom as it tends with ever watchfull eyes,</l>
+               <l>That neither <hi>Power</hi> may force, nor <hi>Art</hi> ſurpriſe.</l>
+               <pb n="7" facs="tcp:173154:6" rendition="simple:additions"/>
+               <l>So bounded by no ſhore, graſpes all the <hi>Maine,</hi>
+               </l>
+               <l>And farre as <hi>Neptune</hi> claimes, extends his <hi>reigne.</hi>
+               </l>
+               <l>Found ſtill ſome Time to <hi>heare</hi> and to <hi>admire,</hi>
+               </l>
+               <l>The happy ſounds of his Harmonious <hi>Lire,</hi>
+               </l>
+               <l>And oft hath left his bright exalted <hi>Throne,</hi>
+               </l>
+               <l>And to his <hi>Muſes</hi> feet combin'd His owne:<note place="margin">In his Maskes.</note>
+               </l>
+               <l>As did his <hi>Queene,</hi> whoſe <hi>Perſon</hi> ſo diſclos'd</l>
+               <l>A brighter <hi>Nimph</hi> then any Part impos'd,</l>
+               <l>When ſhe did joyne, by an Harmonious choiſe,</l>
+               <l>Her gracefull <hi>Motions</hi> to his Powerfull <hi>voice:</hi>
+               </l>
+               <l>How above all the reſt was <hi>Phaebus</hi> fir'd</l>
+               <l>With love of <hi>Arts,</hi> which he himſelfe inſpir'd,</l>
+               <l>Nor oftner by his <hi>Light</hi> our <hi>Sence</hi> was chear'd,</l>
+               <l>Then he in <hi>Perſon</hi> to his ſight appear'd,</l>
+               <l>Nor did he write a line but to ſupply,</l>
+               <l>With ſacred <hi>Flame</hi> the <hi>Radiant God</hi> was by.</l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>Though none I ever heard this laſt rehearſe,</l>
+               <l>I ſaw as much when I did ſee his verſe.</l>
+            </sp>
+            <sp>
+               <speaker>Mel.</speaker>
+               <l>Since He, when living could ſuch <hi>Honors</hi> have,</l>
+               <l>What now will <hi>Piety</hi> pay to his grave?</l>
+               <l>Shall of the <hi>rich</hi> (whoſe lives were low and vile,</l>
+               <l>And ſcarce deſerv'd a Grave, much leſſe a Pile)</l>
+               <l>The <hi>monuments</hi> poſſeſſe an ample <hi>Roome,</hi>
+               </l>
+               <l>And ſuch a <hi>Wonder</hi> lye without a <hi>Tombe?</hi>
+               </l>
+               <l>Raiſe thou him one in <hi>Verſe,</hi> and There relate</l>
+               <l>His <hi>Worth,</hi> thy <hi>griefe,</hi> and our deplored <hi>ſtate,</hi>
+               </l>
+               <l>His great <hi>Perfections</hi> our great loſſe recite,</l>
+               <l>And let them meerely weepe who cannot write,</l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>I like thy <hi>ſaying,</hi> but oppoſe thy <hi>choiſe,</hi>
+               </l>
+               <l>So great a Taske as this requires a <hi>Voice</hi>
+               </l>
+               <l>Which muſt be heard, and liſtned to, by all,</l>
+               <l>And <hi>Fames</hi> owne <hi>Trumpet</hi> but appeares too ſmall,</l>
+               <l>Then for my ſlender <hi>Reede</hi> to ſound his <hi>Name,</hi>
+               </l>
+               <l>Would more my <hi>Folly</hi> then his <hi>praiſe</hi> proclaime,</l>
+               <pb n="8" facs="tcp:173154:7"/>
+               <l>And when you wiſh my <hi>weakeneſse</hi> ſing his <hi>Worth,</hi>
+               </l>
+               <l>You charge a <hi>Mouſe</hi> to bring a <hi>Mountaine</hi> forth:</l>
+               <l>I am by <hi>Nature</hi> form'd, by <hi>Woes</hi> made Dull,</l>
+               <l>My <hi>Head</hi> is emptier then my <hi>Heart</hi> is full;</l>
+               <l>
+                  <hi>Griefe</hi> doth my <hi>Braine</hi> impaire, as <hi>Teares</hi> ſupply,</l>
+               <l>Which makes my <hi>face</hi> ſo <hi>moiſt,</hi> my <hi>Pen</hi> ſo <hi>dry:</hi>
+               </l>
+               <l>Nor ſhould this <hi>Work</hi> proceed from <hi>Woods</hi> and <hi>Downes,</hi>
+               </l>
+               <l>But from the <hi>Academies, Courts,</hi> and <hi>Townes;</hi>
+               </l>
+               <l>Let <hi>Digby, Carew, Killigrew,</hi> and <hi>Maine,</hi>
+               </l>
+               <l>
+                  <hi>Godolphin, Waller,</hi> that inſpired <hi>Traine,</hi>
+               </l>
+               <l>Or whoſe rare <hi>Pen</hi> beſide deſerves the <hi>grace,</hi>
+               </l>
+               <l>Or of an <hi>equall,</hi> or a neighbouring <hi>Place,</hi>
+               </l>
+               <l>Anſwer thy <hi>wiſh,</hi> for none ſo fit appeares</l>
+               <l>To raiſe his <hi>Tombe,</hi> as who are left his <hi>Heires:</hi>
+               </l>
+               <l>Yet for this <hi>Cauſe</hi> no labour need be ſpent,</l>
+               <l>Writing his <hi>Workes,</hi> he built his <hi>Monument.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Mel.</speaker>
+               <l>If to obey in this, thy <hi>Pen</hi> be loth,</l>
+               <l>It will not ſeeme thy <hi>weakneſse,</hi> but thy <hi>ſloth:</hi>
+               </l>
+               <l>Our <hi>Townes</hi> preſt by our <hi>Foes</hi> invading <hi>Might,</hi>
+               </l>
+               <l>Our ancient <hi>Druids</hi> and young <hi>Virgins</hi> fight,</l>
+               <l>Employing feeble Limbes to the beſt uſe;</l>
+               <l>So JOHNSON dead, no <hi>Pen</hi> ſhould plead excuſe:</l>
+               <l>For <hi>Elegies, howle</hi> all who cannot <hi>ſing,</hi>
+               </l>
+               <l>For <hi>Tombes</hi> bring <hi>Turfe,</hi> who cannot <hi>Marble</hi> bring,</l>
+               <l>Let all their <hi>forces</hi> mix, joyne <hi>Verſe</hi> to <hi>Rime,</hi>
+               </l>
+               <l>To ſave his <hi>Fame</hi> from that Invader, <hi>Time;</hi>
+               </l>
+               <l>Whoſe <hi>Power,</hi> though his alone may well reſtraine,</l>
+               <l>Yet to ſo wiſht an end, no <hi>Care</hi> is vaine;</l>
+               <l>And <hi>Time,</hi> like what our <hi>Brookes</hi> act in our <hi>ſight,</hi>
+               </l>
+               <l>Oft ſinkes the <hi>neightie,</hi> and upholds the <hi>Light:</hi>
+               </l>
+               <l>Beſides, to this, thy <hi>paines</hi> I ſtrive to move</l>
+               <l>Leſſe to expreſſe his <hi>glory</hi> then thy <hi>Love:</hi>
+               </l>
+               <l>Not long before his <hi>Death,</hi> our <hi>woods</hi> he meant</l>
+               <l>To <hi>viſit,</hi> and deſcend from <hi>Thames</hi> to <hi>Trent,</hi>
+               </l>
+               <pb n="9" facs="tcp:173154:7"/>
+               <l>Meete with thy Elegy his Paſtorall,</l>
+               <l>And riſe as much as he vouchſaft to fall:</l>
+               <l>Suppoſe it chance no other Pen doe joine</l>
+               <l>In this Attempt, and the whole worke be thine.</l>
+               <l>When the fierce fire the raſh-Boy kindled, raign'd,</l>
+               <l>The whole world ſuffer'd; Earth alone complain'd:</l>
+               <l>Suppoſe that many more intend the ſame,</l>
+               <l>More taught by Art, and better knowne to Fame,</l>
+               <l>To that great Deluge which ſo farre deſtroid,</l>
+               <l>The Earth her Springs, as Heaven his Showrs emploid;</l>
+               <l>So may who higheſt Markes of Honour weares,</l>
+               <l>Admit meane Partners in this Flood of Teares:</l>
+               <l>So oft the Humbleſt joine with Loftieſt Things,</l>
+               <l>Nor onely Princes weep the fate of Kings.</l>
+            </sp>
+            <sp>
+               <speaker>Hyl.</speaker>
+               <l>I yeeld, I yeeld, Thy words my thoughts have fir'd,</l>
+               <l>And I am leſſe perſwaded then inſpir'd;</l>
+               <l>Speech ſhall give Sorrow vent, and that Releefe,</l>
+               <l>The Woods ſhall eccho all the Citties griefe:</l>
+               <l>I oft have verſe on meaner Subjects made,</l>
+               <l>Should I give Preſents and leave Debts unpaid?</l>
+               <l>Want of Invention here is no excuſe,</l>
+               <l>My matter I ſhall find, and not produce,</l>
+               <l>And (as it fares in Crowds) I onely doubt,</l>
+               <l>So much would paſſe, that Nothing will get out,</l>
+               <l>Elſe in this Worke which now my Thoughts intend</l>
+               <l>I ſhall find nothing hard, but how to end:</l>
+               <l>I then but aske fit Time to ſmooth my Layes,</l>
+               <l>(And imitate in this the Pen I praiſe)</l>
+               <l>Which by the Subjects Power embalm'd, may laſt,</l>
+               <l>Whilſt the Sun Light, the Earth doth ſhadowes caſt,</l>
+               <l>And feather'd by thoſe Wings fly among men,</l>
+               <l>Farre as the Fame of Poetry and BEN.</l>
+            </sp>
+            <closer>
+               <signed>FALKLAND.</signed>
+            </closer>
+         </div>
+         <div type="poems">
+            <pb n="10" facs="tcp:173154:8"/>
+            <div type="elegy">
+               <head>TO THE MEMORY OF BENIAMIN IOHNSON.</head>
+               <l>IF <hi>Romulus</hi> did promiſe in the fight</l>
+               <l>To <hi>love</hi> the <hi>Stator,</hi> if he held from flight</l>
+               <l>His men, a Temple, and perform'd his vow:</l>
+               <l>Why ſhould not we, learn'd <hi>IOHNSON,</hi> thee allow</l>
+               <l>An Altar at the leaſt? ſince by Thy aid,</l>
+               <l>Learning, that would have left us, ha's bin ſtay'd.</l>
+               <l>The Actions were different: that thing</l>
+               <l>Requir'd ſome marke to keep't from periſhing;</l>
+               <l>But letters muſt bee quite defac'd before</l>
+               <l>Thy memory, whoſe care did them reſtore</l>
+               <byline>BVCKHVRST.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="11" facs="tcp:173154:8"/>
+               <head>TO THE MEMORY OF him who can never be forgotten, Maſter BENIAMIN JOHNSON.</head>
+               <l>HAd this bin for ſome meaner Poets Hearſe,</l>
+               <l>I might have then obſerv'd the lawes of verſe:</l>
+               <l>But here they faile, nor can I hope t'expreſſe</l>
+               <l>In Numbers, what the world grants Numberleſſe;</l>
+               <l>Such are the Truths, we ought to ſpeake of Thee,</l>
+               <l>Thou great refiner of our Poeſie,</l>
+               <l>Who turn'ſt to gold that which before was lead;</l>
+               <l>Then with that pure <hi>Elixar</hi> rais'd the dead.</l>
+               <l>Nine Siſters who (for all the Poets lyes)</l>
+               <l>Had bin deem'd Mortall, did not JOHNSON riſe</l>
+               <l>And with celeſtiall Sparkes (not ſtolne) revive</l>
+               <l>Thoſe who could erſt keep winged Fame alive:</l>
+               <l>T'was he that found (plac't) in the ſeat of wit,</l>
+               <l>Dull grinning Ignorance, and baniſh't it;</l>
+               <l>He on the proſtituted Stage appeares</l>
+               <l>To make men heare, not by their eyes, but eares;</l>
+               <l>Who painted Vertues, that each one might know,</l>
+               <l>And point the man, that did ſuch Treaſure owe:</l>
+               <l>So that who could in JOHNSONS lines be high</l>
+               <l>Needed not Honours, or a Ribbon buy:</l>
+               <l>But vice he onely ſhew'd us in a glaſſe,</l>
+               <l>Which by reflection of thoſe rayes that paſſe,</l>
+               <l>Retaines the figure lively, ſet before,</l>
+               <l>And that withdrawne, reflects at us no more;</l>
+               <pb n="10" facs="tcp:173154:9"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="11" facs="tcp:173154:9"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="12" facs="tcp:173154:10"/>
+               <l>So, he obſerv'd the like <hi>Decorum,</hi> when</l>
+               <l>He whipt the vices, and yet ſpar'd the men;</l>
+               <l>When heretofore, the vices onely note,</l>
+               <l>And ſigne from vertue as his party-coate,</l>
+               <l>When Devils were the laſt <hi>Men</hi> on the Stage,</l>
+               <l>And pray'd for plenty, and the preſent Age;</l>
+               <l>Nor was our Engliſh language, onely bound</l>
+               <l>To thanke him, for he Latin <hi>Horace</hi> found</l>
+               <l>(Who ſo inſpir'd <hi>Rome,</hi> with his Lyricke ſong)</l>
+               <l>Tranſlated in the <hi>Macaronicke</hi> toung,</l>
+               <l>Cloth'd in ſuch raggs, as one might ſafely vow,</l>
+               <l>That his <hi>Maecenas,</hi> would not owne him now;</l>
+               <l>On him he tooke this pitty, as to cloth</l>
+               <l>In words, and ſuch expreſſion, as for both,</l>
+               <l>Ther's none but judgeth the exchange will come</l>
+               <l>To twenty more, then when he ſold at <hi>Rome.</hi>
+               </l>
+               <l>Since then, he made our Language pure and good,</l>
+               <l>And teach us ſpeake, but what we underſtood,</l>
+               <l>We owe this praiſe to him, that ſhould we joyne</l>
+               <l>To pay him, he were payd but with the coyne</l>
+               <l>Himſelfe hath minted, which we know by this</l>
+               <l>That no words paſſe for currant now, but his;</l>
+               <l>And though He in a blinder age could change</l>
+               <l>Faults to perfections, yet 'twas farre more ſtrange</l>
+               <l>To ſee (how ever times, and faſhions frame)</l>
+               <l>His wit and language ſtill remaine the ſame</l>
+               <l>In all mens mouths; Grave Preachers did it uſe</l>
+               <l>As golden Pills, by which they might infuſe</l>
+               <l>Their Heavenly Phyſicke; Miniſters of State</l>
+               <l>Their grave diſpatches in his language wrate;</l>
+               <l>Ladies made cur'tſies in them, Courtiers, legs,</l>
+               <l>Phyſicians Bills, perhaps ſome Pedant begs</l>
+               <pb n="13" facs="tcp:173154:10"/>
+               <l>He may not uſe it, for he heares 'tis ſuch,</l>
+               <l>As in few words, a man may utter much</l>
+               <l>Could I have ſpoken in his language too,</l>
+               <l>I had not ſaid ſo much, as now I doe,</l>
+               <l>To whoſe cleare memory, I this tribute ſend</l>
+               <l>Who Dead's my wonder, Living was my Friend.</l>
+               <byline>IOHN BEAUMONT, Baronet.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="14" facs="tcp:173154:11"/>
+               <head>TO THE MEMORY OF M. BENIAMIN IOHNSON.</head>
+               <l>TO preſſe into the throng, where <hi>Wits</hi> thus ſtrive</l>
+               <l>To make thy <hi>Lawrels</hi> fading <hi>Tombes</hi> ſurvive,</l>
+               <l>Argues thy <hi>worth,</hi> their <hi>love,</hi> my bold <hi>deſire,</hi>
+               </l>
+               <l>Somewhat to ſing, though but to fill the <hi>Quire:</hi>
+               </l>
+               <l>But (Truth to ſpeake) what <hi>Muſe</hi> can ſilent be,</l>
+               <l>Or little ſay, that hath for Subject, <hi>Thee,</hi>
+               </l>
+               <l>Whoſe <hi>Poems</hi> ſuch, that as the Sphere of fire,</l>
+               <l>They warme inſenſibly, and <hi>Force</hi> inſpire,</l>
+               <l>
+                  <hi>Knowledge,</hi> and <hi>wit</hi> infuſe, mute <hi>tongues</hi> unloſe,</l>
+               <l>And wayes not track't to write, and ſpeake diſcloſe.</l>
+               <l>But when thou put'ſt thy <hi>Tragique Buskin</hi> on,</l>
+               <l>Or <hi>Comique Socke</hi> of mirthfull <hi>Action,</hi>
+               </l>
+               <l>Actors, as if inſpired from thy hand,</l>
+               <l>Speake, beyond what they thinke, leſſe, underſtand.</l>
+               <l>And thirſty Hearers wonder-ſtrucken ſay,</l>
+               <l>Thy words make that a <hi>Truth,</hi> was meant a <hi>Play.</hi>
+               </l>
+               <l>
+                  <hi>Folly,</hi> and braine-ſicke <hi>Humors</hi> of the time,</l>
+               <l>Diſtempered <hi>Paſſion,</hi> audacious <hi>Crime,</hi>
+               </l>
+               <l>Thy Pen ſo on the ſtage doth perſonate,</l>
+               <l>That ere men ſcarce begin to know, they hate</l>
+               <l>The <hi>Vice</hi> preſented, and there leſſons learne,</l>
+               <l>
+                  <hi>Virtue,</hi> from vicious Habits to diſcerne.</l>
+               <l>Oft have I ſeene <hi>Thee</hi> in a ſprightly ſtraine,</l>
+               <l>To laſh a <hi>Vice,</hi> and yet no one complaine,</l>
+               <pb n="15" facs="tcp:173154:11"/>
+               <l>Thou threw'ſt the <hi>Inke</hi> of <hi>Malice</hi> from Thy <hi>Pen,</hi>
+               </l>
+               <l>Whoſe aime was evill <hi>manners,</hi> not ill <hi>men.</hi>
+               </l>
+               <l>Let then fraile parts repoſe, where ſolemne care</l>
+               <l>Of pious Friends, thee <hi>Pyramids</hi> prepare;</l>
+               <l>And take thou (BEN) from <hi>Verſe</hi> a ſecond breath,</l>
+               <l>Which ſhall create <hi>Thee</hi> new, and conquer <hi>Death.</hi>
+               </l>
+               <byline>S<hi rend="sup">r</hi>. THO. HAWKINS.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="16" facs="tcp:173154:12"/>
+               <head>
+                  <hi>Vpon</hi> BEN. IOHNSON.</head>
+               <lg>
+                  <l>I See that <hi>Wreath</hi> which doth the <hi>wearer</hi> arme</l>
+                  <l>Gainſt the quick ſtroakes of <hi>Thunder</hi> is no charme</l>
+                  <l>To keepe off <hi>deaths</hi> pale <hi>dart:</hi> For (IOHNSON) then</l>
+                  <l>Thou hadſt beene number'd ſtill with <hi>living men:</hi>
+                  </l>
+                  <l>
+                     <hi>Times Sythe</hi> had feard <hi>thy Lawrell</hi> to invade,</l>
+                  <l>Nor <hi>thee</hi> this Subject of our <hi>ſorrow</hi> made.</l>
+               </lg>
+               <lg>
+                  <l>Amongſt thoſe many <hi>Votaries</hi> that come</l>
+                  <l>To offer up their <hi>Garlands</hi> at thy <hi>Tombe,</hi>
+                  </l>
+                  <l>Whilſt ſome more lofty <hi>Pens</hi> in their bright <hi>
+                        <g ref="char:V">Ʋ</g>erſe,</hi>
+                  </l>
+                  <l>(Like glorious Tapers flaming on thy <hi>Herſe</hi>)</l>
+                  <l>Shall light the dull and thankleſſe <hi>World</hi> to ſee,</l>
+                  <l>How great a maime <hi>it</hi> ſuffers, (wanting thee;)</l>
+                  <l>Let not <hi>thy</hi> learned <hi>ſhadow</hi> ſcorne, that I</l>
+                  <l>Pay meaner <hi>Rites</hi> unto <hi>thy Memory:</hi>
+                  </l>
+                  <l>And ſince I nought can adde but in <hi>deſire,</hi>
+                  </l>
+                  <l>Reſtore ſome <hi>ſparks</hi> which leapt from <hi>thine</hi> owne <hi>fire.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>What ends ſoever other <hi>Quils</hi> invite,</l>
+                  <l>I can proteſt, it was no <hi>itch</hi> to <hi>write,</hi>
+                  </l>
+                  <l>Nor any vaine <hi>ambition</hi> to be <hi>read,</hi>
+                  </l>
+                  <l>But meerely <hi>love</hi> and <hi>juſtice</hi> to the <hi>dead,</hi>
+                  </l>
+                  <l>VVhich rais'd my fameleſſe <hi>Muſe;</hi> and caus'd her bring</l>
+                  <l>Theſe <hi>drops,</hi> as <hi>tribute</hi> throwne into that <hi>Spring,</hi>
+                  </l>
+                  <l>To whoſe moſt <hi>rich</hi> and <hi>fruitfull head</hi> we owe</l>
+                  <l>The pureſt ſtreames of <hi>language</hi> which can flow.</l>
+                  <pb n="17" facs="tcp:173154:12"/>
+                  <l>For 'tis but truth; <hi>Thou</hi> taughtſt the ruder <hi>Age,</hi>
+                  </l>
+                  <l>To ſpeake by <hi>Grammer;</hi> and reformd'ſt the <hi>Stage:</hi>
+                  </l>
+                  <l>Thy <hi>Comick ock</hi> induc'd ſuch purged <hi>ſenſe,</hi>
+                  </l>
+                  <l>A <hi>Lucrece</hi> might have heard without offence.</l>
+                  <l>Amongſt thoſe ſoaring <hi>Wits</hi> that did dilate</l>
+                  <l>Our <hi>Engliſh,</hi> and advance <hi>it</hi> to the <hi>rate</hi>
+                  </l>
+                  <l>And <hi>value</hi> it now holds, <hi>thy ſelfe</hi> was one</l>
+                  <l>Helpt lift it up to ſuch proportion,</l>
+                  <l>That thus <hi>refin'd</hi> and <hi>roab'd</hi> it ſhall not ſpare</l>
+                  <l>VVith the full <hi>Greeke</hi> or <hi>Latine</hi> to compare.</l>
+                  <l>For what <hi>Tongue</hi> ever durſt, but <hi>Ours,</hi> tranſlate</l>
+                  <l>Great <hi>Tullies Eloquence,</hi> or <hi>Homers State?</hi>
+                  </l>
+                  <l>Both which in their unblemiſht <hi>luſtre</hi> ſhine,</l>
+                  <l>From <hi>Chapmans Pen,</hi> and from <hi>thy</hi> CATILINE.</l>
+               </lg>
+               <lg>
+                  <l>All I would aske for <hi>thee,</hi> in recompence</l>
+                  <l>Of <hi>thy</hi> ſucceſsfull <hi>toyle,</hi> and <hi>times expence</hi>
+                  </l>
+                  <l>Is onely this poore <hi>boone:</hi> That thoſe who can</l>
+                  <l>Perhaps read <hi>French,</hi> or talke <hi>Italian,</hi>
+                  </l>
+                  <l>Or doe the lofty <hi>Spaniard</hi> affect,</l>
+                  <l>(To ſhew their skill in <hi>forreigne dialect</hi>)</l>
+                  <l>Prove not themſelves ſo unnat'rally <hi>wiſe</hi>
+                  </l>
+                  <l>They therefore ſhould their <hi>Mother-tongue</hi> deſpiſe:</l>
+                  <l>(As if her <hi>Poets</hi> both for <hi>ſtile</hi> and <hi>witt,</hi>
+                  </l>
+                  <l>Not equal'd, or not paſs'd their beſt that <hi>writt</hi>)</l>
+                  <l>Vntill by ſtudying IOHNSON they have knowne</l>
+                  <l>The <hi>heighth,</hi> and <hi>ſtrength,</hi> and <hi>plentie</hi> of their <hi>owne.</hi>
+                  </l>
+                  <l>Thus in what low <hi>earth,</hi> or neglected <hi>roome,</hi>
+                  </l>
+                  <l>So ere <hi>thou</hi> ſleepſt, <hi>thy</hi> BOOKE ſhall be <hi>thy Tombe,</hi>
+                  </l>
+                  <l>Thou wilt goe downe a <hi>happie Coarſe,</hi> beſtrew'd</l>
+                  <l>VVith <hi>thine</hi> owne <hi>Flowres</hi> and feele <hi>thy ſelfe</hi> renew'd,</l>
+                  <l>VVhilſt <hi>thy immortall,</hi> never with'ring <hi>Bayes</hi>
+                  </l>
+                  <l>Shall yearely flouriſh in <hi>thy Readers</hi> praiſe.</l>
+                  <pb n="18" facs="tcp:173154:13"/>
+                  <l>And when more <hi>ſpreading Titles</hi> are forgot,</l>
+                  <l>Or, ſpight of all their <hi>Lead</hi> and <hi>Seare-cloth,</hi> rot;</l>
+                  <l>Thou <hi>wrapt</hi> and <hi>ſhrin'd</hi> in <hi>thine</hi> owne <hi>ſheets</hi> wilt lye</l>
+                  <l>A <hi>Relique</hi> fam'd by all <hi>Poſteritie.</hi>
+                  </l>
+               </lg>
+               <byline>HEN. KING.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="19" facs="tcp:173154:13"/>
+               <l>MIght but this ſlender offering of mine,</l>
+               <l>Croud midſt the ſacred burden of thy ſhrine,</l>
+               <l>The neere acquaintance with thy greater name</l>
+               <l>Might ſtile me <hi>Wit,</hi> and privilege my <hi>Fame,</hi>
+               </l>
+               <l>But I've no ſuch ambition, nor dare ſue</l>
+               <l>For the leaſt Legacy of <hi>Wit,</hi> as due,</l>
+               <l>I come not t'offend duty, and tranſgreſſe</l>
+               <l>Affection, nor with bold preſumption preſſe,</l>
+               <l>Midſt thoſe cloſe mourners, whoſe nigh kin in verſe,</l>
+               <l>Hath made the nere attendance of Thy herſe,</l>
+               <l>I come in <hi>duty,</hi> not in <hi>pride,</hi> to ſhow</l>
+               <l>Not what I have in ſtore, but what I owe.</l>
+               <l>Nor ſhall My folly wrong Thy <hi>Fame,</hi> for we</l>
+               <l>Prize by the want of <hi>Wit,</hi> the loſſe of Thee.</l>
+               <l>As when the wearied Sunne hath ſtolne to reſt,</l>
+               <l>And darkneſſe made the worlds unwelcome gueſt,</l>
+               <l>We groveling captives of the night, yet may</l>
+               <l>With fire and candle beget light, not day:</l>
+               <l>Now He whoſe name in <hi>Poetry</hi> controules,</l>
+               <l>Goes to converſe with more <hi>refined Soules,</hi>
+               </l>
+               <l>Like countrey Gazers in amaze we ſit,</l>
+               <l>Admirers of this great <hi>Eclipſe</hi> in <hi>Wit,</hi>
+               </l>
+               <l>
+                  <hi>Reaſon</hi> and <hi>Wit</hi> We have to ſhew us <hi>Men,</hi>
+               </l>
+               <l>But no hereditary beame of <hi>Ben,</hi>
+               </l>
+               <l>Our knock't inventions may beget a ſparke,</l>
+               <l>Which faints at th'leaſt reſiſtance of the darke,</l>
+               <l>Thine like the <hi>Fires</hi> high element was pure,</l>
+               <l>And like the ſame made not to burne, but cure,</l>
+               <pb n="20" facs="tcp:173154:14"/>
+               <l>When thy enraged <hi>Muſe</hi> did chide o'th ſtage,</l>
+               <l>'Twas to reforme, not to abuſe the <hi>Age,</hi>
+               </l>
+               <l>But th'art requited ill, to have thy herſe,</l>
+               <l>Stain'd by prophaner <hi>Parricides</hi> in verſe;</l>
+               <l>Who make mortality, a guilt, and ſcould,</l>
+               <l>Meerely becauſe Thou'dſt offer to be old,</l>
+               <l>'Twas too unkinde a ſlighting of Thy <hi>name,</hi>
+               </l>
+               <l>To thinke a <hi>ballad</hi> could confute Thy <hi>Fame,</hi>
+               </l>
+               <l>Let's but peruſe their <hi>Libels,</hi> and they'le be,</l>
+               <l>But arguments they underſtood not thee,</l>
+               <l>Nor I'ſt diſgrace, that in <hi>Thee</hi> through age ſpent,</l>
+               <l>'Twas thought a crime not to be excellent:</l>
+               <l>For <hi>Me,</hi> Ile in ſuch reverence hold thy <hi>Fame,</hi>
+               </l>
+               <l>Ile but by <hi>Invocation</hi> uſe Thy <hi>Name,</hi>
+               </l>
+               <l>Be thou propitious, <hi>Poetry</hi> ſhall know,</l>
+               <l>No <hi>Deity</hi> but <hi>Thee</hi> to whom I'le owe.</l>
+               <byline>HEN. COVENTRY.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="21" facs="tcp:173154:14"/>
+               <head>AN ELEGIE UPON BENIAMIN IOHNSON.</head>
+               <l>THough once high <hi>Statius</hi> o're dead <hi>Lucans</hi> hearſe,</l>
+               <l>Would ſeeme to feare his owne <hi>Hexameters,</hi>
+               </l>
+               <l>And thought a greater <hi>Honour</hi> then that feare,</l>
+               <l>
+                  <hi>He</hi> could not bring to <hi>Lucans</hi> ſepulcher;</l>
+               <l>Let not our <hi>Poets</hi> feare to write of thee,</l>
+               <l>Greate JOHNSON King of <hi>Engliſh Poetry</hi>
+               </l>
+               <l>In any Engliſh <hi>Verſe,</hi> let none who e're,</l>
+               <l>Bring ſo much emulation as to feare:</l>
+               <l>But pay without comparing thoughts at all,</l>
+               <l>Their tribute verſes to thy funerall;</l>
+               <l>Nor thinke what ere they write on ſuch a name,</l>
+               <l>Can be amiſſe; If high, it fits Thy <hi>Fame:</hi>
+               </l>
+               <l>If low, it rights Thee more, and makes men ſee,</l>
+               <l>That Engliſh <hi>Poetry</hi> is dead with Thee,</l>
+               <l>Which in Thy <hi>Genius</hi> did ſo ſtrongly live,</l>
+               <l>Nor will I here particularly ſtrive,</l>
+               <l>To praiſe each well compoſed piece of thine;</l>
+               <l>Or ſhew what judgement, <hi>Art</hi> and <hi>Wit</hi> did joyne</l>
+               <l>To make them up, but onely (in the way</l>
+               <l>That <hi>Famianus</hi> honour'd <hi>Virgill</hi>) ſay,</l>
+               <l>The <hi>Muſe</hi> her ſelfe was link't ſo neere to thee,</l>
+               <l>Who ere ſaw one, muſt needs the other ſee,</l>
+               <l>And if in thy expreſſions ought ſeem'd ſcant,</l>
+               <l>Not thou, but <hi>Poetry</hi> it ſelfe did want,</l>
+            </div>
+            <div type="elegy">
+               <pb n="22" facs="tcp:173154:15"/>
+               <head>AN ELEGIE ON <hi>BEN. IOHNSON.</hi>
+               </head>
+               <lg>
+                  <l>I Dare not, learned <hi>Shade,</hi> bedew thy Hearſe</l>
+                  <l>With <hi>teares,</hi> unleſſe that <hi>impudence</hi> in Verſe</l>
+                  <l>Would ceaſe to be a <hi>ſinne;</hi> and what were <hi>crime</hi>
+                  </l>
+                  <l>In <hi>Proſe,</hi> would be no <hi>injurie</hi> in <hi>Rime.</hi>
+                  </l>
+                  <l>My <hi>thoughts</hi> are ſo <hi>below,</hi> I feare to act</l>
+                  <l>A ſinne, like their black <hi>envie,</hi> who detract;</l>
+                  <l>As oft as I would <hi>character</hi> in ſpeech</l>
+                  <l>That <hi>worth,</hi> which <hi>ſilent wonder</hi> ſcarce can reach.</l>
+                  <l>Yet, I that but <hi>pretend</hi> to <hi>learning,</hi> owe</l>
+                  <l>So much to thy great <hi>fame,</hi> I ought to ſhew</l>
+                  <l>My <hi>weakeneſse</hi> in thy <hi>praiſe;</hi> to thus approve,</l>
+                  <l>Although it be leſſe <hi>wit,</hi> is greater <hi>love:</hi>
+                  </l>
+                  <l>'Tis all our <hi>phancie</hi> aimes at; and our <hi>tongues</hi>
+                  </l>
+                  <l>At beſt, will <hi>guiltie</hi> prove of friendly <hi>wrongs.</hi>
+                  </l>
+                  <l>For, who would <hi>image</hi> out thy <hi>worth,</hi> great BEN,</l>
+                  <l>Should firſt be, what he <hi>praiſes;</hi> and his <hi>Pen</hi>
+                  </l>
+                  <l>Thy <hi>active braines</hi> ſhould <hi>feed,</hi> which we can't have,</l>
+                  <l>Unleſſe we could <hi>redeeme Thee</hi> from the <hi>Grave.</hi>
+                  </l>
+                  <l>The onely <hi>way</hi> that's left <hi>now,</hi> is to <hi>looke</hi>
+                  </l>
+                  <l>Into thy <hi>Papers,</hi> to <hi>reade</hi> o're thy <hi>Booke;</hi>
+                  </l>
+                  <l>And then remove thy <hi>phancies,</hi> there doth lye</l>
+                  <l>Some <hi>judgement,</hi> where we cannot make, t'apply</l>
+                  <l>Our <hi>reading:</hi> ſome, perhaps, may call this <hi>wit,</hi>
+                  </l>
+                  <l>And thinke, we doe not <hi>ſteale,</hi> but onely fit</l>
+                  <pb n="23" facs="tcp:173154:15"/>
+                  <l>
+                     <hi>Thee</hi> to thy <hi>ſelfe,</hi> of all thy <hi>Marble weares,</hi>
+                  </l>
+                  <l>Nothing is <hi>truly ours,</hi> except the <hi>teares.</hi>
+                  </l>
+                  <l>O could we <hi>weepe</hi> like <hi>Thee!</hi> we might convay</l>
+                  <l>New <hi>breath,</hi> and raiſe <hi>men</hi> from their <hi>Beds</hi> of Clay</l>
+                  <l>Unto a <hi>life</hi> of <hi>fame;</hi> he is not <hi>dead,</hi>
+                  </l>
+                  <l>Who by thy <hi>Muſes</hi> hath beene buried.</l>
+                  <l>Thrice happy thoſe brave <hi>Heroes,</hi> whom I meet</l>
+                  <l>Wrapt in thy <hi>writings,</hi> as their <hi>winding-ſheet:</hi>
+                  </l>
+                  <l>For, when the <hi>tribute</hi> unto <hi>Nature</hi> due,</l>
+                  <l>Was <hi>payd,</hi> they did receive <hi>new life</hi> from <hi>you;</hi>
+                  </l>
+                  <l>Which ſhall not be <hi>undated,</hi> ſince thy <hi>breath</hi>
+                  </l>
+                  <l>Is able to <hi>immortall,</hi> after <hi>death.</hi>
+                  </l>
+                  <l>Thus <hi>reſcu'd</hi> from the <hi>dust,</hi> they did ne're ſee</l>
+                  <l>
+                     <hi>True life,</hi> untill they were <hi>entomb'd</hi> by <hi>Thee.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>You that pretend to <hi>Courtſhip,</hi> here <hi>admire</hi>
+                  </l>
+                  <l>Thoſe pure and active <hi>flames, Love</hi> did <hi>inſpire:</hi>
+                  </l>
+                  <l>And though he could have <hi>tooke</hi> his <hi>Miſtreſse eares,</hi>
+                  </l>
+                  <l>Beyond <hi>fain'd ſighs, falſe oaths,</hi> and <hi>forced teares;</hi>
+                  </l>
+                  <l>His <hi>heat</hi> was ſtill ſo <hi>modeſt,</hi> it might <hi>warme,</hi>
+                  </l>
+                  <l>But doe the <hi>Cloyſtred Votarie</hi> no <hi>harme.</hi>
+                  </l>
+                  <l>The <hi>face</hi> he ſometimes praiſes, but the <hi>mind,</hi>
+                  </l>
+                  <l>A fairer <hi>Saint,</hi> is in his <hi>Verſe</hi> inſhrin'd.</l>
+               </lg>
+               <lg>
+                  <l>He that would <hi>worthily</hi> ſet downe his <hi>prayſe,</hi>
+                  </l>
+                  <l>Should ſtudie <hi>Lines</hi> as loftie as his <hi>Playes.</hi>
+                  </l>
+                  <l>The <hi>Roman Worthies</hi> did not ſeeme to <hi>fight</hi>
+                  </l>
+                  <l>With braver <hi>ſpirit,</hi> then we ſee him <hi>write:</hi>
+                  </l>
+                  <l>His <hi>Pen</hi> their <hi>valour</hi> equals; and that <hi>Age</hi>
+                  </l>
+                  <l>Receives a greater <hi>glory</hi> from our <hi>Stage.</hi>
+                  </l>
+                  <l>Bold <hi>Catiline,</hi> at once <hi>Romes hate</hi> and <hi>feare,</hi>
+                  </l>
+                  <l>Farre higher in his <hi>ſtorie</hi> doth appeare:</l>
+                  <l>The <hi>flames</hi> thoſe <hi>active Furies</hi> did inſpire,</l>
+                  <l>
+                     <hi>Ambition</hi> and <hi>Revenge,</hi> his <hi>better fire</hi>
+                  </l>
+                  <pb n="24" facs="tcp:173154:16"/>
+                  <l>Kindles afreſh; thus <hi>lighted,</hi> they ſhall <hi>burne,</hi>
+                  </l>
+                  <l>Till <hi>Rome</hi> to its <hi>firſt nothing</hi> doe returne.</l>
+                  <l>Brave <hi>fall,</hi> had but the <hi>cauſe</hi> beene likewiſe <hi>good!</hi>
+                  </l>
+                  <l>Had he ſo, for his <hi>Countrey,</hi> loſt his <hi>blood!</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Some like not <hi>Tully</hi> in <hi>his owne;</hi> yet while</l>
+                  <l>All doe <hi>admire him</hi> in <hi>thy Engliſh ſtile,</hi>
+                  </l>
+                  <l>I <hi>cenſure</hi> not; I rather thinke, that wee</l>
+                  <l>May well his <hi>equall, thine</hi> we ne're ſhall ſee.</l>
+               </lg>
+               <byline>DUDLY DIGGS.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="25" facs="tcp:173154:16"/>
+               <head>To THE IMMORTALITIE of my Learned Friend, M. IOHNSON.</head>
+               <l>I Parled once with <hi>Death,</hi> and thought to yeeld,</l>
+               <l>When thou adviſed'ſt me to keepe the field,</l>
+               <l>Yet if I fell, thou wouldſt upon my <hi>Hearſe,</hi>
+               </l>
+               <l>Breath the reviving <hi>ſpirit</hi> of thy <hi>Verſe.</hi>
+               </l>
+               <l>I live, and to thy gratefull <hi>Muſe</hi> would pay,</l>
+               <l>A <hi>Parallell</hi> of thanks, but that this day</l>
+               <l>Of thy faire <hi>Rights,</hi> through th' innumerous light,</l>
+               <l>That flowes from thy <hi>Adorers,</hi> ſeems as bright,</l>
+               <l>As when the <hi>Sun</hi> darts through his <hi>golden Haire,</hi>
+               </l>
+               <l>His <hi>Beames Diameter</hi> into the <hi>Aire.</hi>
+               </l>
+               <l>In vaine I then ſtrive to encreaſe thy <hi>glory,</hi>
+               </l>
+               <l>Theſe <hi>Lights</hi> that goe before make dark my ſtory.</l>
+               <pb n="26" facs="tcp:173154:17"/>
+               <l>Onely Ile ſay, Heaven gave unto Thy <hi>Pen</hi>
+               </l>
+               <l>A <hi>Sacred power, Immortallizing</hi> men,</l>
+               <l>And thou diſpenſing Life immortally,</l>
+               <l>Do'ſt now but <hi>ſabbatize</hi> from worke, not dye.</l>
+               <byline>GEORGE FORTESCVE.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="27" facs="tcp:173154:17"/>
+               <head>An ELEGIE UPON THE Death of BEN. JOHNSON, the moſt Excellent of Engliſh <hi>Poets:</hi>
+               </head>
+               <lg>
+                  <l>WHat doth officious <hi>Fancie</hi> here prepare?</l>
+                  <l>Be't rather this rich <hi>Kingdoms</hi> charge &amp; care</l>
+                  <l>To find a <hi>Virgin quarrie</hi> whence no hand,</l>
+                  <l>E're wrought a <hi>Tombe</hi> on <hi>vulgar Duſt</hi> to ſtand,</l>
+                  <l>And thence bring for this worke Materials fit,</l>
+                  <l>Great JOHNSON needs no <hi>Architect</hi> of <hi>Wit;</hi>
+                  </l>
+                  <l>Who forc'd from <hi>Art,</hi> receiv'd from <hi>Nature</hi> more</l>
+                  <l>Then doth ſurvive <hi>Him,</hi> or e're liv'd before.</l>
+               </lg>
+               <lg>
+                  <l>And <hi>Poets,</hi> with what veile ſo'ere you hide,</l>
+                  <l>Your <hi>aime,</hi> 'twill not be thought your griefe, but pride</l>
+                  <l>Which that your <hi>Cypreſse</hi> never growth might want,</l>
+                  <l>Did it neere his eternall <hi>Lawrell</hi> plant.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Heaven</hi> at the death of <hi>Princes,</hi> by the birth</l>
+                  <l>Of ſome new <hi>starre,</hi> ſeemes to inſtruct the <hi>Earth,</hi>
+                  </l>
+                  <pb n="28" facs="tcp:173154:18"/>
+                  <l>How it reſents our humane <hi>Fate.</hi> Then why</l>
+                  <l>Didſt thou <hi>Wits</hi> moſt <hi>triumphant Monarch</hi> dye</l>
+                  <l>Without thy <hi>Comet?</hi> Did the <hi>Skye</hi> deſpaire</l>
+                  <l>To teeme a <hi>Fire,</hi> bright as thy glories were?</l>
+                  <l>Or is it by its <hi>Age,</hi> unfruitfull growne,</l>
+                  <l>And can produce no <hi>light,</hi> but what is knowne,</l>
+                  <l>A common <hi>Mourner,</hi> when a <hi>Princes</hi> fall</l>
+                  <l>Invites a <hi>Starre</hi> t'attend the <hi>Funerall?</hi>
+                  </l>
+                  <l>But thoſe prodigious Sights onely create,</l>
+                  <l>Talke for the Vulgar, <hi>Heaven</hi> before thy <hi>Fate.</hi>
+                  </l>
+                  <l>That thou thy ſelfe might'ſt thy owne <hi>Dirges</hi> heare,</l>
+                  <l>Made the ſad <hi>stage cloſe mourner</hi> for a yeere;</l>
+                  <l>The <hi>ſtage,</hi> (which as by an inſtinct divine,</l>
+                  <l>Inſtructed, ſeeing it's owne <hi>Fate</hi> in Thine,</l>
+                  <l>And knowing how it owed it's life to Thee)</l>
+                  <l>Prepar'd it ſelfe thy <hi>Sepulcher</hi> to be,</l>
+                  <l>And had continued ſo, but that Thy <hi>Wit,</hi>
+                  </l>
+                  <l>Which as the <hi>Soule,</hi> firſt animated it,</l>
+                  <l>Still hovers here below, and nere ſhall dye,</l>
+                  <l>Till <hi>Time</hi> be buried in <hi>eternity.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>But You! whoſe <hi>Comicke</hi> labours on the ſtage,</l>
+                  <l>Againſt the envy of a froward age</l>
+                  <l>Hold combat! How will now your <hi>Veſſels</hi> ſaile,</l>
+                  <l>The <hi>Seas</hi> ſo broken and the winds ſo fraile,</l>
+                  <pb n="29" facs="tcp:173154:18"/>
+                  <l>Such <hi>Rocks,</hi> ſuch <hi>ſhallowes</hi> threatning every where,</l>
+                  <l>And <hi>Iohnſon</hi> dead, whoſe <hi>Art</hi> your courſe might ſteare?</l>
+               </lg>
+               <lg>
+                  <l>Looke up! where <hi>Seneca,</hi> and <hi>Sophocles,</hi>
+                  </l>
+                  <l>Quicke <hi>Plautus,</hi> and ſharpe <hi>Ariſtophanes,</hi>
+                  </l>
+                  <l>Enlighten yon bright <hi>Orbe!</hi> Doth not your eye,</l>
+                  <l>Among them, one farre larger fire, deſcry,</l>
+                  <l>At which their lights grow pale? 'tis <hi>Iohnſon,</hi> there</l>
+                  <l>He ſhines your <hi>Starre</hi> who was your <hi>Pilot</hi> here.</l>
+               </lg>
+               <byline>W. ABINGTON.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="30" facs="tcp:173154:19"/>
+               <head>Vpon BEN: IOHNSON, the moſt excellent of Comick POETS.</head>
+               <l>MIrror of <hi>Poets!</hi> Mirror of our <hi>Age!</hi>
+               </l>
+               <l>Which her whol Face beholding on thy ſtage,</l>
+               <l>Pleas'd and diſpleas'd with her owne faults en<g ref="char:EOLhyphen"/>dures,</l>
+               <l>A remedy, like thoſe whom <hi>Muſicke</hi> cures,</l>
+               <l>Thou not alone thoſe various inclinations,</l>
+               <l>Which <hi>Nature</hi> gives to <hi>Ages, Sexes, Nations,</hi>
+               </l>
+               <l>Haſt traced with thy All-reſembling <hi>Pen,</hi>
+               </l>
+               <l>But all that cuſtome hath impos'd on <hi>Men,</hi>
+               </l>
+               <l>Or ill-got Habits, which diſtort them ſo,</l>
+               <l>That ſcarce the Brother can the Brother know,</l>
+               <l>Is repreſented to the wondring Eyes,</l>
+               <l>Of all that ſee or read thy Comedies.</l>
+               <l>Who ever in thoſe Glaſſes lookes may finde,</l>
+               <l>The ſpots return d, or graces of his minde;</l>
+               <l>And by the helpe of ſo <hi>divine</hi> an <hi>Art,</hi>
+               </l>
+               <l>At leiſure view, and dreſſe his nobler part.</l>
+               <l>
+                  <hi>Narciſsus</hi> cozen'd by that flattering <hi>Well,</hi>
+               </l>
+               <l>Which nothing could but of his beauty tell,</l>
+               <l>Had here diſcovering the deform'd eſtate</l>
+               <l>Of his fond minde, preſerv'd himſelfe with hate,</l>
+               <l>But <hi>Vertue</hi> too, as well as <hi>Vice</hi> is clad,</l>
+               <l>In fleſh and blood ſo well, that <hi>Plato</hi> had</l>
+               <l>Beheld what his high <hi>Fancie</hi> once embrac'd,</l>
+               <l>
+                  <hi>Vertue</hi> with colours, ſpeech and motion grac<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d.</l>
+               <pb n="31" facs="tcp:173154:19"/>
+               <l>The ſundry <hi>Poſtures</hi> of <hi>Thy</hi> copious <hi>Muſe,</hi>
+               </l>
+               <l>Who would expreſſe a thouſand <hi>tongues</hi> muſt uſe,</l>
+               <l>Whoſe <hi>Fates</hi> no leſſe peculiar then thy <hi>Art,</hi>
+               </l>
+               <l>For as thou couldſt all <hi>characters</hi> impart,</l>
+               <l>So none can render thine, who ſtill eſcapes,</l>
+               <l>Like <hi>Prote us</hi> in variety of ſhapes,</l>
+               <l>Who was nor this nor that, but all we finde,</l>
+               <l>And all we can imagine in mankind.</l>
+               <byline>E. WALLER.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="32" facs="tcp:173154:20"/>
+               <head>Vpon the POET of His time, <hi>B. J:</hi> His honoured <hi>F.</hi> and <hi>F.</hi>
+               </head>
+               <l>ANd is thy <hi>Glaſſe</hi> run out? is that <hi>Oile</hi> ſpent,</l>
+               <l>Which light to ſuch tough ſinewy labours lent?</l>
+               <l>Well BEN I now perceive that all the <hi>Nine,</hi>
+               </l>
+               <l>Though they their utmoſt forces ſhould combine,</l>
+               <l>Cannot prevaile 'gainſt <hi>Nights three Daughters,</hi> but</l>
+               <l>One ſtill will <hi>ſpinne,</hi> One <hi>Winde,</hi> the other <hi>Cut,</hi>
+               </l>
+               <l>Yet in deſpight of <hi>Spindle, Clue,</hi> and <hi>Knife,</hi>
+               </l>
+               <l>
+                  <hi>Thou</hi> in thy ſtrenuous lines haſt got a <hi>life,</hi>
+               </l>
+               <l>Which like thy <hi>Bay</hi> ſhall flouriſh every Age,</l>
+               <l>While <hi>Socke</hi> or <hi>Buskin</hi> move upon the ſtage.</l>
+               <byline>
+                  <hi>Sic Vaticinatur</hi> IA. HOWELL <hi>Ar.</hi>
+               </byline>
+            </div>
+            <div type="elegy">
+               <pb n="25" facs="tcp:173154:20"/>
+               <head>AN OFFERTORY AT THE TOMBE OF THE FAMOVS POET BEN: IOHNSON.</head>
+               <l>IF <hi>Soules</hi> departed lately hence doe know</l>
+               <l>How we performe the <hi>duties</hi> that we owe</l>
+               <l>Their <hi>Reliques?</hi> will it not grieve <hi>thy ſpirit</hi>
+               </l>
+               <l>To ſee our dull <hi>devotion? thy merit</hi>
+               </l>
+               <l>Prophan'd by diſproportiond <hi>Rites? thy Herſe</hi>
+               </l>
+               <l>Rudely defil'd with Our unpoliſh'd <hi>Verſe?</hi>
+               </l>
+               <l>Neceſſitie's our beſt excuſe; 'tis in</l>
+               <l>Our <hi>underſtanding,</hi> not our <hi>will</hi> wee ſin;</l>
+               <l>'Gainſt which 'tis now in vaine to labour, wee</l>
+               <l>Did nothing <hi>know,</hi> but what was <hi>taught</hi> by <hi>Thee,</hi>
+               </l>
+               <l>The <hi>routed Souldiers</hi> when their <hi>Captaines</hi> fall</l>
+               <l>Forget all <hi>order,</hi> that men cannot call</l>
+               <l>It properly a <hi>Battaile</hi> that they <hi>fight;</hi>
+               </l>
+               <l>Nor wee (<hi>Thou</hi> being dead) be ſaid to <hi>write.</hi>
+               </l>
+               <l>'Tis <hi>noiſe</hi> wee utter, nothing can be <hi>ſung</hi>
+               </l>
+               <l>By thoſe diſtinctly that have loſt their <hi>Tongue;</hi>
+               </l>
+               <pb n="32" facs="tcp:173154:21"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="25" facs="tcp:173154:21"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="26" facs="tcp:173154:22"/>
+               <l>And therefore whatſoere the <hi>Subject</hi> be,</l>
+               <l>All <hi>
+                     <g ref="char:V">Ʋ</g>erſes</hi> now become <hi>thy</hi> ELEGIE:</l>
+               <l>For, when a <hi>liveleſſe Poeme</hi> ſhall bee read,</l>
+               <l>Th' afflicted <hi>Reader</hi> ſighs, BEN: IONSON'S <hi>dead.</hi>
+               </l>
+               <l>This is <hi>thy Glory,</hi> that no <hi>Pen</hi> can raiſe</l>
+               <l>A laſting <hi>Trophee</hi> in <hi>thy</hi> honour'd <hi>praiſe;</hi>
+               </l>
+               <l>Since <hi>Fate</hi> (it ſeemes) would have it ſo expreſt,</l>
+               <l>Each <hi>Muſe</hi> ſhould end with <hi>Thine,</hi> who was the beſt:</l>
+               <l>And but <hi>her</hi> flights were ſtronger and ſo <hi>high,</hi>
+               </l>
+               <l>That <hi>Times</hi> rude hand cannot reach <hi>her glory,</hi>
+               </l>
+               <l>An ignorance had ſpred this <hi>Age</hi> as great</l>
+               <l>As that which made <hi>thy learned</hi> MUSE ſo ſweat,</l>
+               <l>And toyle to <hi>diſſipate;</hi> untill (at length)</l>
+               <l>Purg'd by <hi>thy Art,</hi> it gain'd a laſting <hi>ſtrength;</hi>
+               </l>
+               <l>And now ſecur'd by <hi>thy</hi> all-powerfull <hi>Writt,</hi>
+               </l>
+               <l>Can feare no more a like <hi>relapſe</hi> of <hi>Witt:</hi>
+               </l>
+               <l>Though (to Our griefe) we ever muſt deſpaire,</l>
+               <l>That any <hi>Age</hi> can raiſe <hi>Thee</hi> up an <hi>Heyre.</hi>
+               </l>
+               <byline>IOHN VERNON. <hi>è ſociet: In: Temp.</hi>
+               </byline>
+            </div>
+            <div type="elegy">
+               <pb n="27" facs="tcp:173154:22"/>
+               <l>THe <hi>Muſes</hi> faireſt <hi>light</hi> in no darke time,</l>
+               <l>The <hi>Wonder</hi> of a <hi>learned Age;</hi> the <hi>Line</hi>
+               </l>
+               <l>Which none can paſſe; the moſt <hi>proportion'd Witt,</hi>
+               </l>
+               <l>To Nature, the <hi>beſt Judge</hi> of what was fit;</l>
+               <l>The <hi>deepeſt, plaineſt, higheſt, cleereſt</hi> PEN;</l>
+               <l>The <hi>Voice</hi> moſt eccho'd by <hi>conſenting Men,</hi>
+               </l>
+               <l>The <hi>Soule</hi> which anſwer'd beſt to all well ſaid</l>
+               <l>By others, and which moſt <hi>requitall</hi> made,</l>
+               <l>Tun'd to the <hi>higheſt Key</hi> of <hi>ancient</hi> ROME,</l>
+               <l>Returning all <hi>her Muſique</hi> with <hi>his owne,</hi>
+               </l>
+               <l>In <hi>whom</hi> with <hi>Nature, Studie</hi> claim'd a part,</l>
+               <l>And yet <hi>who</hi> to <hi>himſelfe</hi> ow'd all his <hi>Art:</hi>
+               </l>
+               <l>Heere lies BEN: IOHNSON, every <hi>Age</hi> will looke</l>
+               <l>With <hi>ſorrow</hi> heere, with <hi>wonder</hi> on <hi>his</hi> BOOKE.</l>
+            </div>
+            <div type="elegy">
+               <pb n="28" facs="tcp:173154:23"/>
+               <lg>
+                  <l>VVHo firſt reform'd our <hi>Stage</hi> with juſteſt <hi>Lawes,</hi>
+                  </l>
+                  <l>And was the firſt beſt <hi>Judge</hi> in your <hi>owne Cauſe?</hi>
+                  </l>
+                  <l>Who (when his <hi>Actors</hi> trembled for <hi>Applauſe</hi>)</l>
+               </lg>
+               <lg>
+                  <l>Could (with a <hi>noble Confidence</hi>) preferre</l>
+                  <l>His <hi>owne,</hi> by right, to a whole <hi>Theater;</hi>
+                  </l>
+                  <l>From <hi>Principles</hi> which <hi>he</hi> knew could not <hi>erre.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>VVho to <hi>his</hi> FABLE did <hi>his Perſons</hi> fitt,</l>
+                  <l>VVith all the <hi>Properties</hi> of <hi>Art</hi> and <hi>Witt,</hi>
+                  </l>
+                  <l>And above all (that could bee <hi>Acted) writt.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>VVho publique <hi>Follies</hi> did to <hi>covert</hi> drive,</l>
+                  <l>VVhich <hi>hee</hi> againe could cunningly <hi>retrive,</hi>
+                  </l>
+                  <l>Leaving them no <hi>ground</hi> to reſt on, and <hi>thrive.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Heere IONSON lies, <hi>whom</hi> had I nam'd before</l>
+                  <l>In that one <hi>word</hi> alone, I had paid more</l>
+                  <l>Then can be now, when <hi>plentie</hi> makes me <hi>poore.</hi>
+                  </l>
+               </lg>
+               <byline>I. Cl.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="29" facs="tcp:173154:23"/>
+               <head>To the Memory of <hi>BEN. IOHNSON.</hi>
+               </head>
+               <l>AS when the <hi>
+                     <g ref="char:V">Ʋ</g>eſtall hearth</hi> went out, no <hi>fire</hi>
+               </l>
+               <l>Leſſe <hi>holy</hi> then the <hi>flame</hi> that did expire</l>
+               <l>Could kindle it againe: So at <hi>thy</hi> fall</l>
+               <l>Our <hi>Witt, great</hi> BEN, is too <hi>Apocryphall</hi>
+               </l>
+               <l>To celebrate the <hi>loſſe,</hi> ſince tis too much</l>
+               <l>To write thy <hi>Epitaph,</hi> and not bee ſuch.</l>
+               <l>What <hi>thou</hi> wert, like th'hard <hi>Oracles</hi> of <hi>old,</hi>
+               </l>
+               <l>Without an <hi>extaſie</hi> cannot bee told.</l>
+               <l>We muſt be <hi>raviſht</hi> firſt, <hi>Thou</hi> muſt infuſe</l>
+               <l>
+                  <hi>Thy ſelfe</hi> into us both the <hi>Theame</hi> and <hi>Muſe.</hi>
+               </l>
+               <l>Elſe, (though wee all conſpir'd to make <hi>thy Herſe</hi>
+               </l>
+               <l>Our <hi>Workes</hi>) ſo that 'thad beene but one great <hi>
+                     <g ref="char:V">Ʋ</g>erſe,</hi>
+               </l>
+               <l>Though the <hi>Prieſt</hi> had tranſlated for that time</l>
+               <l>The <hi>Liturgy,</hi> and buried <hi>thee</hi> in <hi>Rime,</hi>
+               </l>
+               <l>So that in <hi>Meeter</hi> wee had heard it ſaid,</l>
+               <l>
+                  <hi>Poetique duſt</hi> is to <hi>Poetique</hi> laid:</l>
+               <l>And though that <hi>duſt</hi> being <hi>Shakſpears</hi> thou might'ſt have</l>
+               <l>Not his <hi>roome,</hi> but the <hi>Poet</hi> for <hi>thy grave;</hi>
+               </l>
+               <l>So that, as <hi>thou</hi> didſt <hi>Prince</hi> of <hi>Numbers</hi> dye</l>
+               <l>And live, ſo now <hi>thou</hi> mightſt in <hi>Numbers</hi> lie,</l>
+               <l>'Twere fraile <hi>ſolemnitie; <g ref="char:V">Ʋ</g>erſes</hi> on <hi>Thee</hi>
+               </l>
+               <l>And not like <hi>thine,</hi> would but kind <hi>Libels</hi> be;</l>
+               <l>And we, (not ſpeaking <hi>thy whole Worth</hi>) ſhould raiſe</l>
+               <l>Worſe blots, then they that envied <hi>thy praiſe.</hi>
+               </l>
+               <l>Indeed, <hi>thou</hi> need'ſt us not, ſince above all</l>
+               <l>
+                  <hi>Invention, thou</hi> wert <hi>thine</hi> owne <hi>Funerall.</hi>
+               </l>
+               <pb n="30" facs="tcp:173154:24"/>
+               <l>Hereafter, when <hi>Time</hi> hath fed on <hi>thy Tombe,</hi>
+               </l>
+               <l>Th'<hi>inſcription</hi> worne out, and the <hi>Marble</hi> dumbe;</l>
+               <l>So that 'twould poſe a <hi>Critick</hi> to reſtore</l>
+               <l>Halfe <hi>words,</hi> and <hi>words</hi> expir'd ſo long before.</l>
+               <l>When thy maym'd <hi>Statue</hi> hath a <hi>ſentenc'd face,</hi>
+               </l>
+               <l>And <hi>lookes</hi> that are the horror of the <hi>place,</hi>
+               </l>
+               <l>That 'twill be <hi>learning,</hi> and <hi>Antiquitie,</hi>
+               </l>
+               <l>And aske a SELDEN to ſay, <hi>this was Thee,</hi>
+               </l>
+               <l>
+                  <hi>Thou'lt</hi> have a whole <hi>Name</hi> ſtill, nor needſt <hi>thou</hi> feare</l>
+               <l>
+                  <hi>That</hi> will be ruin'd, or loſe <hi>noſe,</hi> or <hi>haire.</hi>
+               </l>
+               <l>Let others write ſo <hi>thin,</hi> that they can't be</l>
+               <l>
+                  <hi>Authors</hi> till rotten, no <hi>Poſteritie</hi>
+               </l>
+               <l>Can adde to <hi>thy Workes;</hi> th'had their whole growth then</l>
+               <l>When firſt borne, and came aged from thy <hi>Pen.</hi>
+               </l>
+               <l>Whilſt living thou enjoy'dſt the <hi>fame</hi> and <hi>ſenſe</hi>
+               </l>
+               <l>Of all that <hi>time</hi> gives but the <hi>reverence.</hi>
+               </l>
+               <l>When <hi>th'art</hi> of <hi>Homers</hi> yeares, no man will ſay</l>
+               <l>Thy <hi>Poems</hi> are leſſe <hi>worthy,</hi> but more <hi>gray:</hi>
+               </l>
+               <l>Tis <hi>Baſtard-Poetry,</hi> and oth' <hi>falſe blood</hi>
+               </l>
+               <l>Which can't without <hi>ſucceſſion</hi> be good.</l>
+               <l>Things that will alwayes laſt, doe thus agree</l>
+               <l>With things <hi>eternall;</hi> th'at once <hi>perfect</hi> bee.</l>
+               <l>Scorne then their cenſures, who gav't out, <hi>thy Witt</hi>
+               </l>
+               <l>As long upon a <hi>Comoedie</hi> did ſit</l>
+               <l>As <hi>Elephants</hi> bring forth; and that <hi>thy blotts</hi>
+               </l>
+               <l>And <hi>mendings</hi> tooke more time then <hi>Fortune plotts:</hi>
+               </l>
+               <l>That ſuch <hi>thy drought</hi> was, and ſo great <hi>thy thirſt,</hi>
+               </l>
+               <l>That all thy <hi>Playes</hi> were <hi>drawne</hi> at th' <hi>Mermaid</hi> firſt:</l>
+               <l>That the <hi>Kings</hi> yearely <hi>Butt</hi> wrote, and his <hi>Wine</hi>
+               </l>
+               <l>Hath more <hi>right</hi> then <hi>thou</hi> to thy CATILINE.</l>
+               <l>Let ſuch men keepe a <hi>diet,</hi> let their <hi>witt</hi>
+               </l>
+               <l>Be <hi>rackt,</hi> and while they <hi>write,</hi> ſuffer a <hi>fitt:</hi>
+               </l>
+               <pb n="31" facs="tcp:173154:24"/>
+               <l>When th'have felt <hi>tortures</hi> which out-paine the <hi>gout,</hi>
+               </l>
+               <l>Such, as with leſſe, the <hi>State</hi> drawes <hi>treaſon</hi> out;</l>
+               <l>Though they ſhould the length of <hi>conſumptions</hi> lie</l>
+               <l>Sicke of their <hi>verſe,</hi> and of their <hi>Poem</hi> die,</l>
+               <l>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>Twould not be <hi>thy</hi> worſt <hi>Scoene,</hi> but would at laſt</l>
+               <l>Confirme their boaſtings, and ſhew made in haſt.</l>
+               <l>He that writes <hi>well,</hi> writes <hi>quick,</hi> ſince the <hi>rule's</hi> true,</l>
+               <l>Nothing is ſlowly done, that's alwayes new.</l>
+               <l>So when <hi>thy</hi> FOXE had ten times <hi>acted</hi> beene,</l>
+               <l>Each <hi>day</hi> was <hi>firſt,</hi> but that 'twas cheaper ſeene.</l>
+               <l>And ſo thy ALCHYMIST plaid ore and ore,</l>
+               <l>Was <hi>new</hi> oth' <hi>Stage</hi> when 'twas not at the <hi>dore.</hi>
+               </l>
+               <l>Wee, like the <hi>Actors</hi> did repeat, the <hi>Pit</hi>
+               </l>
+               <l>The firſt time <hi>ſaw,</hi> the next <hi>conceiv'd</hi> thy <hi>Wit:</hi>
+               </l>
+               <l>Which was caſt in thoſe <hi>forms,</hi> ſuch <hi>rules,</hi> ſuch <hi>Arts,</hi>
+               </l>
+               <l>That but to ſome not halfe thy <hi>Acts</hi> were <hi>parts:</hi>
+               </l>
+               <l>Since of ſome ſilken <hi>judgements</hi> we may ſay,</l>
+               <l>They fill'd a <hi>Boxe</hi> two houres, but ſaw no <hi>Play.</hi>
+               </l>
+               <l>So that th'<hi>unlearned</hi> loſt their <hi>money,</hi> and</l>
+               <l>
+                  <hi>Schollers</hi> ſav'd onely, that could <hi>underſtand.</hi>
+               </l>
+               <l>Thy <hi>Scoene</hi> was free from <hi>Monſters,</hi> no hard <hi>Plot</hi>
+               </l>
+               <l>Call'd downe a <hi>God</hi> t'untie th'unlikely <hi>knot.</hi>
+               </l>
+               <l>The <hi>Stage</hi> was ſtill a <hi>Stage,</hi> two entrances</l>
+               <l>Were not two <hi>parts</hi> oth' <hi>World,</hi> disjoyn'd by <hi>Seas.</hi>
+               </l>
+               <l>Thine were <hi>land-Tragedies,</hi> no Prince was found</l>
+               <l>To ſwim a whole <hi>Scoene</hi> out, then oth' <hi>Stage</hi> drown'd;</l>
+               <l>Pitch't fields, as <hi>Red-Bull</hi> wars, ſtill felt thy doome,</l>
+               <l>Thou laidſt no ſieges to the <hi>Muſique-Roome;</hi>
+               </l>
+               <l>Nor wouldſt allow to thy beſt <hi>Comoedies</hi>
+               </l>
+               <l>Humours that ſhould above the People riſe:</l>
+               <l>Yet was thy <hi>language</hi> and thy <hi>ſtile</hi> ſo high,</l>
+               <l>Thy <hi>Socke</hi> toth' <hi>ancle, Buskin</hi> reacht toth' <hi>thigh;</hi>
+               </l>
+               <pb n="32" facs="tcp:173154:25"/>
+               <l>And both ſo chaſt, ſo 'bove <hi>Dramatick</hi> cleane,</l>
+               <l>That we both ſafely ſaw, and liv'd thy <hi>Scene.</hi>
+               </l>
+               <l>No foule looſe line did proſtitute thy <hi>wit,</hi>
+               </l>
+               <l>Thou wrot'ſt thy <hi>Comoedies,</hi> didſt not commit.</l>
+               <l>We did the vice arraignd not tempting heare,</l>
+               <l>And were made <hi>Judges,</hi> not bad <hi>parts</hi> byth eare.</l>
+               <l>For <hi>thou</hi> ev'n ſinne didſt in ſuch words array,</l>
+               <l>That ſome who came <hi>bad parts,</hi> went out <hi>good play.</hi>
+               </l>
+               <l>Which ended not with th' <hi>Epilogue,</hi> the <hi>Age</hi>
+               </l>
+               <l>Still acted, which grew innocent from th' <hi>Stage.</hi>
+               </l>
+               <l>Tis true thou hadſt ſome <hi>ſharpneſſe,</hi> but thy <hi>ſalt</hi>
+               </l>
+               <l>Serv'd but with pleaſure to reforme the fault.</l>
+               <l>Men were laugh'd into <hi>vertue,</hi> and none more</l>
+               <l>Hated <hi>Face</hi> acted then were ſuch before.</l>
+               <l>So did thy ſting not <hi>bloud,</hi> but <hi>humours</hi> draw,</l>
+               <l>So much doth <hi>Satyre</hi> more correct then <hi>Law;</hi>
+               </l>
+               <l>Which was not <hi>nature</hi> in <hi>thee,</hi> as ſome call</l>
+               <l>Thy <hi>teeth,</hi> who ſay thy <hi>wit</hi> lay in thy <hi>Gall.</hi>
+               </l>
+               <l>That <hi>thou</hi> didſt quarrell firſt, and then, in ſpight,</l>
+               <l>Didſt 'gainſt a <hi>perſon</hi> of ſuch <hi>vices</hi> write:</l>
+               <l>That 'twas <hi>revenge,</hi> not <hi>truth,</hi> that on the <hi>Stage</hi>
+               </l>
+               <l>
+                  <hi>Carlo</hi> was not preſented, but <hi>thy Rage:</hi>
+               </l>
+               <l>And that when <hi>thou</hi> in <hi>company</hi> wert met,</l>
+               <l>Thy <hi>meate</hi> tooke <hi>notes,</hi> and <hi>thy diſcourſe</hi> was <hi>net.</hi>
+               </l>
+               <l>Wee know <hi>thy</hi> free-<hi>veine</hi> had this <hi>innocence,</hi>
+               </l>
+               <l>To ſpare the <hi>partie,</hi> and to brand th' <hi>offence.</hi>
+               </l>
+               <l>And the juſt <hi>indignation thou</hi> wert in</l>
+               <l>Did not expoſe <hi>Shift,</hi> but his <hi>tricks</hi> and <hi>ginne.</hi>
+               </l>
+               <l>Thou mightſt have us'd th' old <hi>Comick</hi> freedome, theſe</l>
+               <l>Might have ſeene themſelves <hi>plaid,</hi> like <hi>Socrates.</hi>
+               </l>
+               <l>Like <hi>Cleon, Mammon</hi> might the <hi>Knight</hi> have beene,</l>
+               <l>If, as <hi>Greeke Authors,</hi> thou hadſt turn'd <hi>Greeke ſpleene;</hi>
+               </l>
+               <pb n="33" facs="tcp:173154:25"/>
+               <l>And hadſt not choſen rather to tranſlate</l>
+               <l>Their <hi>learning</hi> into <hi>Engliſh,</hi> not their <hi>rate:</hi>
+               </l>
+               <l>Indeed this <hi>laſt,</hi> if <hi>thou</hi> hadſt beene bereft</l>
+               <l>Of <hi>thy</hi> humanitie, might be cal'd <hi>Theft.</hi>
+               </l>
+               <l>The other was not; whatſoere was ſtrange</l>
+               <l>Or borrow'd in <hi>thee</hi> did grow <hi>thine</hi> by th' <hi>change.</hi>
+               </l>
+               <l>Who without <hi>Latine helps</hi> had'ſt beene as <hi>rare</hi>
+               </l>
+               <l>As <hi>Beaumont, Fletcher,</hi> or as <hi>Shakeſpeare</hi> were:</l>
+               <l>And like <hi>them,</hi> from thy <hi>native Stock</hi> could'ſt ſay,</l>
+               <l>
+                  <hi>Poets</hi> and <hi>Kings</hi> are not <hi>borne</hi> every day.</l>
+            </div>
+            <div type="elegy">
+               <pb n="34" facs="tcp:173154:26"/>
+               <head>In the memory of the moſt Worthy <hi>BENIAMIN IOHNSON.</hi>
+               </head>
+               <lg>
+                  <l>
+                     <hi>FAther</hi> of <hi>Poets,</hi> though <hi>thine</hi> owne great day</l>
+                  <l>Struck from <hi>thy ſelfe,</hi> ſcornes that a weaker <hi>ray</hi>
+                  </l>
+                  <l>Should twine in <hi>luſtre</hi> with <hi>it:</hi> yet my <hi>flame,</hi>
+                  </l>
+                  <l>Kindled from <hi>thine,</hi> flies upwards tow'rds <hi>thy</hi> Name.</l>
+                  <l>For in the acclamation of the leſſe</l>
+                  <l>There's <hi>Piety,</hi> though from <hi>it</hi> no acceſſe.</l>
+                  <l>And though my ruder <hi>thoughts</hi> make me of thoſe,</l>
+                  <l>Who hide and cover what they ſhould diſcloſe:</l>
+                  <l>Yet, where the <hi>luſtre's</hi> ſuch, he makes it ſeene</l>
+                  <l>Better to ſome, that drawes the <hi>veile</hi> betweene.</l>
+               </lg>
+               <lg>
+                  <l>And what can more be hop'd, ſince that <hi>divine</hi>
+                  </l>
+                  <l>Free filling <hi>ſpirit</hi> tooke its flight with <hi>thine?</hi>
+                  </l>
+                  <l>Men may have <hi>fury,</hi> but no <hi>raptures</hi> now;</l>
+                  <l>Like Witches, <hi>charme,</hi> yet not know whence, nor how.</l>
+                  <l>And through diſtemper, grown not ſtrong but fierce;</l>
+                  <l>In ſtead of <hi>writings,</hi> onely <hi>rave</hi> in <hi>verſe:</hi>
+                  </l>
+                  <l>Which when by <hi>thy Lawes</hi> judg'd, 'twill be confes'd,</l>
+                  <l>'Twas not to be <hi>inſpir'd,</hi> but be <hi>poſſes'd.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Where ſhall we find a Muſe like <hi>thine,</hi> that can</l>
+                  <l>So well preſent and ſhew <hi>man</hi> unto <hi>man,</hi>
+                  </l>
+                  <l>That each one finds his <hi>twin,</hi> and thinkes <hi>thy Art</hi>
+                  </l>
+                  <l>Extends not to the <hi>geſtures,</hi> but the <hi>heart?</hi>
+                  </l>
+                  <l>Where one ſo ſhewing <hi>life</hi> to <hi>life,</hi> that <hi>we</hi>
+                  </l>
+                  <l>Think <hi>thou</hi> taughtſt <hi>Cuſtome,</hi> and not <hi>Cuſtome thee?</hi>
+                  </l>
+                  <l>
+                     <hi>Manners,</hi> that were Themes to <hi>thy</hi> Scenes ſtill <hi>flow</hi>
+                  </l>
+                  <pb n="35" facs="tcp:173154:26"/>
+                  <l>In the ſame <hi>ſtreame,</hi> and are their <hi>comments</hi> now:</l>
+                  <l>Theſe times thus living o're <hi>thy</hi> Modells, <hi>we</hi>
+                  </l>
+                  <l>Thinke them not ſo much <hi>wit,</hi> as <hi>propheſie:</hi>
+                  </l>
+                  <l>And though <hi>we</hi> know the <hi>character,</hi> may ſweare</l>
+                  <l>A <hi>Sybill's</hi> finger hath bin buſie there.</l>
+               </lg>
+               <lg>
+                  <l>Things <hi>common</hi> thou ſpeakſt <hi>proper,</hi> which though known</l>
+                  <l>For <hi>publique,</hi> ſtampt by <hi>thee</hi> grow thence <hi>thine owne:</hi>
+                  </l>
+                  <l>
+                     <hi>Thy thoughts</hi> ſo <hi>order'd,</hi> ſo <hi>expres'd,</hi> that <hi>we</hi>
+                  </l>
+                  <l>Conclude that <hi>thou</hi> didſt not <hi>diſcourſe,</hi> but <hi>ſee</hi>
+                  </l>
+                  <l>
+                     <hi>Language</hi> ſo <hi>maſter'd,</hi> that <hi>thy</hi> numerous <hi>feet,</hi>
+                  </l>
+                  <l>Laden with <hi>genuine words,</hi> doe alwaies meet</l>
+                  <l>Each in his <hi>art; nothing</hi> unfit doth fall,</l>
+                  <l>Shewing the <hi>Poet,</hi> like the <hi>wiſeman,</hi> All:</l>
+                  <l>
+                     <hi>Thine</hi> equall skill thus wreſting nothing, made</l>
+                  <l>
+                     <hi>Thy penne</hi> ſeeme not ſo much to <hi>write</hi> as <hi>trade.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That <hi>life,</hi> that <hi>Venus</hi> of all things, which <hi>we</hi>
+                  </l>
+                  <l>Conceive or ſhew, proportion'd <hi>decencie,</hi>
+                  </l>
+                  <l>Is not found ſcattred in <hi>thee</hi> here and there,</l>
+                  <l>But, like the <hi>ſoule,</hi> is wholly every where.</l>
+                  <l>No ſtrange perplexed <hi>maze</hi> doth paſſe for <hi>plot,</hi>
+                  </l>
+                  <l>
+                     <hi>Thou</hi> alwayes doſt <hi>unty,</hi> not <hi>cut</hi> the <hi>knot.</hi>
+                  </l>
+                  <l>
+                     <hi>Thy Lab'rinths</hi> doores are open'd by one <hi>thread</hi>
+                  </l>
+                  <l>Thattyes, and runnes through <hi>all</hi> that's <hi>don</hi> or <hi>ſaid.</hi>
+                  </l>
+                  <l>No <hi>power</hi> comes down with learned <hi>hat</hi> and <hi>rod,</hi>
+                  </l>
+                  <l>
+                     <hi>Wit</hi> onely, and <hi>contrivance</hi> is <hi>thy god.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>'Tis eaſie to guild <hi>gold:</hi> there's ſmall skill ſpent</l>
+                  <l>Where ev'n the firſt rude <hi>maſſe</hi> is <hi>ornament:</hi>
+                  </l>
+                  <l>
+                     <hi>Thy Muſe</hi> tooke harder <hi>metalls, purg'd</hi> and <hi>boild,</hi>
+                  </l>
+                  <l>
+                     <hi>Labour'd</hi> and <hi>try'd, heated,</hi> and <hi>beate</hi> and <hi>toyld,</hi>
+                  </l>
+                  <l>
+                     <hi>Sifted</hi> the <hi>droſſe,</hi> fil'd <hi>roughnes,</hi> then gave <hi>dreſſe,</hi>
+                  </l>
+                  <l>Vexing rude <hi>ſubjects</hi> into <hi>comlineſſe.</hi>
+                  </l>
+                  <l>Be it <hi>thy</hi> glory then, that <hi>we</hi> may ſay,</l>
+                  <pb n="36" facs="tcp:173154:27"/>
+                  <l>
+                     <hi>Thou</hi> run'ſt where th' <hi>foote</hi> was hindred by the <hi>way.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Nor doſt <hi>thou</hi> poure out, but diſpence <hi>thy</hi> veine,</l>
+                  <l>Skill'd when to ſpare, and when to entertaine:</l>
+                  <l>Not like our <hi>wits,</hi> who into one piece do</l>
+                  <l>Throw all that they can ſay, and their <hi>friends</hi> too,</l>
+                  <l>
+                     <hi>Pumping</hi> themſelves, for one Termes <hi>noiſe</hi> ſo <hi>dry,</hi>
+                  </l>
+                  <l>As if they made their <hi>wills</hi> in Poetry.</l>
+                  <l>And ſuch ſpruce <hi>compoſitions</hi> preſſe the <hi>ſtage,</hi>
+                  </l>
+                  <l>When men tranſcribe <hi>themſelves,</hi> and not the <hi>age.</hi>
+                  </l>
+                  <l>Both ſorts of Playes are thus like <hi>pictures</hi> ſhowne,</l>
+                  <l>
+                     <hi>Thine</hi> of the common <hi>life,</hi> theirs of their <hi>owne.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Thy modells</hi> yet are not ſo fram'd, as we</l>
+                  <l>May call them <hi>libells,</hi> and not <hi>imag'rie:</hi>
+                  </l>
+                  <l>No name on any Baſis: 'tis <hi>thy</hi> skill</l>
+                  <l>To ſtrike the <hi>vice,</hi> but ſpare the <hi>perſon</hi> ſtill:</l>
+                  <l>As he, who when he ſaw the Serpent wreath'd</l>
+                  <l>About his ſleeping ſonne, and as he breath'd,</l>
+                  <l>Drinke in his <hi>ſoule,</hi> did ſo the ſhoot contrive,</l>
+                  <l>To kill the beaſt, but keepe the <hi>child</hi> alive.</l>
+                  <l>So doſt <hi>thou</hi> aime <hi>thy darts,</hi> which, ev'n when</l>
+                  <l>They kill the <hi>poiſons,</hi> do but wake the <hi>men.</hi>
+                  </l>
+                  <l>
+                     <hi>Thy thunders</hi> thus but <hi>purge,</hi> and we endure</l>
+                  <l>
+                     <hi>Thy launcings</hi> better then anothers <hi>cure;</hi>
+                  </l>
+                  <l>And juſtly too: for th' <hi>age</hi> growes more unſound</l>
+                  <l>From the <hi>fooles balſam,</hi> then the <hi>wiſemans wound.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>No rotten talke brokes for a laugh; no <hi>page</hi>
+                  </l>
+                  <l>Commenc'd man by th' inſtructions of <hi>thy ſtage;</hi>
+                  </l>
+                  <l>No bargaining line there; no provoc'tive <hi>verſe;</hi>
+                  </l>
+                  <l>Nothing but what <hi>Lucretia</hi> might rehearſe;</l>
+                  <l>No need to make <hi>good</hi> count'nance <hi>ill,</hi> and uſe</l>
+                  <l>The plea of <hi>ſtrict life</hi> for a <hi>looſer Muſe:</hi>
+                  </l>
+                  <l>No Woman rul'd <hi>thy quill:</hi> we can deſcry</l>
+                  <pb n="37" facs="tcp:173154:27"/>
+                  <l>No <hi>verſe</hi> borne under any <hi>Cynthia's</hi> eye:</l>
+                  <l>
+                     <hi>Thy</hi> Starre was <hi>judgement</hi> onely, and right <hi>ſenſe,</hi>
+                  </l>
+                  <l>
+                     <hi>Thy ſelfe</hi> being to <hi>thy ſelfe</hi> an <hi>influence.</hi>
+                  </l>
+                  <l>Stout <hi>beauty</hi> is <hi>thy grace:</hi> Sterne <hi>pleaſures</hi> do</l>
+                  <l>Preſent <hi>delights,</hi> but mingle <hi>horrours</hi> too:</l>
+                  <l>
+                     <hi>Thy Muſe</hi> doth thus like <hi>Joves</hi> fierce girle appeare,</l>
+                  <l>With a faire <hi>hand,</hi> but graſping of a Speare.</l>
+               </lg>
+               <lg>
+                  <l>Where are they now that cry, <hi>thy</hi> Lamp did drinke</l>
+                  <l>More <hi>oyle</hi> then th' Authour <hi>wine,</hi> while he did thinke?</l>
+                  <l>We do imbrace their ſlaunder: <hi>thou</hi> haſt <hi>writ</hi>
+                  </l>
+                  <l>Not for <hi>diſpatch</hi> but <hi>fame;</hi> no <hi>market wit:</hi>
+                  </l>
+                  <l>'Twas not <hi>thy</hi> care, that it might <hi>paſſe</hi> and <hi>ſell,</hi>
+                  </l>
+                  <l>But that it might endure, and be done <hi>well:</hi>
+                  </l>
+                  <l>Nor would'ſt <hi>thou</hi> venture it unto the <hi>eare,</hi>
+                  </l>
+                  <l>Untill the <hi>file</hi> would not make <hi>ſmooth,</hi> but <hi>weare:</hi>
+                  </l>
+                  <l>
+                     <hi>Thy verſe</hi> came ſeaſon'd hence, and would not give;</l>
+                  <l>Borne not to feed the Authour, but to <hi>live:</hi>
+                  </l>
+                  <l>Whence 'mong the choycer Judges riſe a ſtrife,</l>
+                  <l>To make <hi>thee</hi> read as Claſſick in <hi>thy life.</hi>
+                  </l>
+                  <l>Thoſe that doe hence applauſe, and ſuffrage begge,</l>
+                  <l>'Cauſe they can Poems forme upon one legge,</l>
+                  <l>Write not to <hi>time,</hi> but to the <hi>Poets</hi> day:</l>
+                  <l>There's difference between <hi>fame,</hi> and ſodaine <hi>pay.</hi>
+                  </l>
+                  <l>Theſe men ſing Kingdomes falls, as if that fate</l>
+                  <l>Us'd the ſame force t' a Village, and a State:</l>
+                  <l>Theſe ſerve <hi>Thyeſtes</hi> bloody ſupper in,</l>
+                  <l>As if it had onely a <hi>ſallad</hi> bin:</l>
+                  <l>Their Catilines are but Fencers, whoſe <hi>fights</hi> riſe</l>
+                  <l>Not to the fame of <hi>battell,</hi> but of <hi>prize.</hi>
+                  </l>
+                  <l>But <hi>thou</hi> ſtill put'ſt true paſſions on; doſt <hi>write</hi>
+                  </l>
+                  <l>With the ſame courage that try'd Captaines fight;</l>
+                  <l>Giv'ſt the right bluſh and colour unto things;</l>
+                  <pb n="38" facs="tcp:173154:28"/>
+                  <l>
+                     <hi>Low</hi> without <hi>creeping, high</hi> without loſſe of <hi>wings;</hi>
+                  </l>
+                  <l>
+                     <hi>Smooth,</hi> yet not <hi>weake,</hi> and by a thorough-care,</l>
+                  <l>
+                     <hi>Bigge</hi> without <hi>ſwelling,</hi> without <hi>painting faire:</hi>
+                  </l>
+                  <l>They wretches, while they cannot ſtand to fit,</l>
+                  <l>Are not <hi>wits,</hi> but materialls of <hi>wit.</hi>
+                  </l>
+                  <l>What though <hi>thy</hi> ſearching <hi>wit</hi> did rake the <hi>duſt</hi>
+                  </l>
+                  <l>Of <hi>time,</hi> and purge old <hi>mettalls</hi> of their <hi>ruſt?</hi>
+                  </l>
+                  <l>Is it no <hi>labour,</hi> no <hi>art,</hi> thinke they, to</l>
+                  <l>Snatch Shipwracks from the <hi>deepe,</hi> as <hi>Dyvers</hi> do?</l>
+                  <l>And reſcue Jewells from the covetous <hi>ſand,</hi>
+                  </l>
+                  <l>Making the Seas hid wealth adorne the Land?</l>
+                  <l>What though <hi>thy</hi> culling Muſe did rob the ſtore</l>
+                  <l>Of Greeke, and Latine gardens to bring ore</l>
+                  <l>
+                     <hi>Plants</hi> to <hi>thy</hi> native ſoyle? Their vertues were</l>
+                  <l>Improv'd farre more, by being planted here.</l>
+                  <l>If <hi>thy Still</hi> to their <hi>eſſence</hi> doth refine</l>
+                  <l>So many <hi>drugges,</hi> is not the <hi>water thine?</hi>
+                  </l>
+                  <l>Thefts thus become juſt <hi>works:</hi> they and their <hi>grace</hi>
+                  </l>
+                  <l>Are wholly <hi>thine:</hi> thus doth the <hi>ſtampe</hi> and <hi>face</hi>
+                  </l>
+                  <l>Make that the Kings, that's raviſht from the <hi>mine:</hi>
+                  </l>
+                  <l>In others then 'tis <hi>oare,</hi> in <hi>thee</hi> 'tis <hi>coine.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Bleſt life of Authours, unto whom we owe</l>
+                  <l>Thoſe that we have, and thoſe that we want too:</l>
+                  <l>Th' art all ſo <hi>good,</hi> that reading makes <hi>thee worſe,</hi>
+                  </l>
+                  <l>And to have <hi>writ</hi> ſo well's <hi>thine</hi> onely curſe.</l>
+                  <l>Secure then of <hi>thy</hi> merit, thou didſt hate</l>
+                  <l>That ſervile baſe dependance upon <hi>fate:</hi>
+                  </l>
+                  <l>Succeſſe thou ne'r thoughtſt <hi>vertue,</hi> nor that fit,</l>
+                  <l>Which <hi>chance,</hi> and th' <hi>ages</hi> faſhion did make hit;</l>
+                  <l>Excluding thoſe from <hi>life</hi> in <hi>after-time,</hi>
+                  </l>
+                  <l>Who into Po'try firſt brought <hi>luck</hi> and <hi>rime:</hi>
+                  </l>
+                  <l>Who thought the peoples breath good ayre: ſty'ld name</l>
+                  <pb n="39" facs="tcp:173154:28"/>
+                  <l>What was but <hi>noiſe;</hi> and getting Briefes for <hi>fame</hi>
+                  </l>
+                  <l>Gathered the many's <hi>ſuffrages,</hi> and thence</l>
+                  <l>Made <hi>commendation</hi> a <hi>benevolence:</hi>
+                  </l>
+                  <l>
+                     <hi>Thy</hi> thoughts were their owne Lawrell, and did win</l>
+                  <l>That beſt applauſe of being crown'd within.</l>
+               </lg>
+               <lg>
+                  <l>And though th' exacting <hi>age,</hi> when deeper yeeres</l>
+                  <l>Had interwoven <hi>ſnow</hi> among <hi>thy haires,</hi>
+                  </l>
+                  <l>Would not permit <hi>thou</hi> ſhouldſt grow <hi>old,</hi> cauſe they</l>
+                  <l>Nere by <hi>thy</hi> writings knew thee <hi>young;</hi> we may</l>
+                  <l>Say juſtly, they're ungratefull, when they more</l>
+                  <l>Condemn'd <hi>thee,</hi> cauſe <hi>thou</hi> wert ſo <hi>good</hi> before:</l>
+                  <l>
+                     <hi>Thine Art</hi> was <hi>thine Arts</hi> blurre, and they'll confeſſe</l>
+                  <l>
+                     <hi>Thy</hi> ſtrong <hi>perfumes</hi> made them not ſmell <hi>thy</hi> leſſe.</l>
+                  <l>But, though to <hi>erre</hi> with <hi>thee</hi> be no ſmall skill,</l>
+                  <l>And we adore the laſt <hi>draughts</hi> of <hi>thy</hi> Quill:</l>
+                  <l>Though thoſe <hi>thy</hi> thoughts, which the now queaſie <hi>age,</hi>
+                  </l>
+                  <l>Doth count but <hi>clods,</hi> and refuſe of the <hi>ſtage,</hi>
+                  </l>
+                  <l>Will come up <hi>Porcelaine-wit</hi> ſome hundreds hence,</l>
+                  <l>VVhen there will be more <hi>manners,</hi> and more <hi>ſenſe;</hi>
+                  </l>
+                  <l>'Twas judgement yet to yeeld, and we afford</l>
+                  <l>
+                     <hi>Thy</hi> ſilence as much <hi>fame,</hi> as once <hi>thy word:</hi>
+                  </l>
+                  <l>VVho like an aged <hi>oake,</hi> the <hi>leaves</hi> being gone,</l>
+                  <l>VVaſt <hi>food</hi> before, art now <hi>religion;</hi>
+                  </l>
+                  <l>Thought ſtill more <hi>rich,</hi> though not ſo richly <hi>ſtor'd,</hi>
+                  </l>
+                  <l>
+                     <hi>View'd</hi> and <hi>enjoy'd</hi> before, but now <hi>ador'd.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Great <hi>ſoule</hi> of <hi>numbers,</hi> whom we want and boaſt;</l>
+                  <l>Like curing <hi>gold,</hi> moſt valu'd now <hi>th'</hi> art loſt;</l>
+                  <l>VVhen we ſhall feed on <hi>refuſe offalls,</hi> when</l>
+                  <l>VVe ſhall from <hi>corne</hi> to <hi>akornes</hi> turne agen;</l>
+                  <l>Then ſhall we ſee that theſe two <hi>names</hi> are one,</l>
+                  <l>JOHNSON and <hi>Poetry,</hi> which now are gone.</l>
+               </lg>
+               <byline>VV. CARTWAIGHT.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="40" facs="tcp:173154:29"/>
+               <head>An Elegy upon <hi>BEN: IOHNSON.</hi>
+               </head>
+               <l>NOw <hi>thou</hi> art dead, and <hi>thy</hi> great <hi>wit</hi> and <hi>name</hi>
+               </l>
+               <l>Is got beyond the reach of Chance or Fame,</l>
+               <l>Which none can <hi>leſſen,</hi> nor we bring enough</l>
+               <l>To raiſe it <hi>higher,</hi> through our want of <hi>ſtuffe;</hi>
+               </l>
+               <l>I find no roome for <hi>praiſe,</hi> but <hi>Elegie,</hi>
+               </l>
+               <l>And there but name the <hi>day</hi> that <hi>thou</hi> didſt <hi>dye.</hi>
+               </l>
+               <l>That men may know <hi>thou</hi> didſt ſo, for they will</l>
+               <l>Hardly beleeve <hi>diſeaſe</hi> or <hi>age</hi> could kill</l>
+               <l>A <hi>body</hi> ſo inform'd, with ſuch a <hi>ſoule,</hi>
+               </l>
+               <l>As, like <hi>thy verſe,</hi> might Fate it ſelfe controule.</l>
+               <l>But <hi>thou</hi> art gon, and <hi>we</hi> like greedy Heires,</l>
+               <l>That ſnatch the fruit of their dead Fathers cares,</l>
+               <l>Begin t'enquire what <hi>meanes thou</hi> left'ſt behind</l>
+               <l>For <hi>us</hi> pretended Heires unto <hi>thy</hi> mind.</l>
+               <l>And <hi>my-ſelfe</hi> not the lateſt 'gan to looke</l>
+               <l>And found the Inventory in <hi>thy</hi> Booke;</l>
+               <l>A <hi>ſtock</hi> for <hi>writers</hi> to ſet up withall:</l>
+               <l>That out of <hi>thy full Comedies,</hi> their <hi>ſmall</hi>
+               </l>
+               <l>And <hi>ſlender wits</hi> by vexing much <hi>thy writ</hi>
+               </l>
+               <l>And their owne <hi>braines,</hi> may draw good <hi>ſaving wit.</hi>
+               </l>
+               <l>And when they ſhall upon ſome <hi>credit</hi> pitch,</l>
+               <l>May be thought well to <hi>live,</hi> although not <hi>rich.</hi>
+               </l>
+               <l>Then for your Songſters, Masquers, what a deal</l>
+               <l>We have? enough to make a Common-weale:</l>
+               <l>Of dauncing Courtiers, as if Poetry</l>
+               <pb n="41" facs="tcp:173154:29"/>
+               <l>Were made to ſet out their <hi>activity.</hi>
+               </l>
+               <l>
+                  <hi>Learning</hi> great ſtore for us to feed upon,</l>
+               <l>But little <hi>fame;</hi> that with <hi>thy ſelfe</hi> is gon,</l>
+               <l>And like a deſperate <hi>debt,</hi> bequeath'd, not paid</l>
+               <l>Before <hi>thy death</hi> has us the poorer made.</l>
+               <l>
+                  <hi>Whil'ſt we with mighty labour it purſue.</hi>
+               </l>
+               <l>
+                  <hi>And after all our toile, not find it due.</hi>
+               </l>
+               <byline>IO: RUTTER.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="42" facs="tcp:173154:30"/>
+               <head>To the Memory of immortall <hi>BEN.</hi>
+               </head>
+               <lg>
+                  <l>TO write is eaſie; but to write of <hi>thee</hi>
+                  </l>
+                  <l>Truth: will be thought to forfeit <hi>modeſty.</hi>
+                  </l>
+                  <l>So farre beyond <hi>conceipt, thy</hi> ſtrengths appeare;</l>
+                  <l>That almoſt <hi>all</hi> will doubt, what <hi>all</hi> muſt heare.</l>
+                  <l>For, when the World ſhall know, that <hi>Pindar</hi>'s <hi>height,</hi>
+                  </l>
+                  <l>
+                     <hi>Plautus</hi> his <hi>wit,</hi> and <hi>Seneca</hi>'s grave <hi>weight,</hi>
+                  </l>
+                  <l>
+                     <hi>Horace</hi> his matchleſſe Nerves, and that high <hi>phraſe</hi>
+                  </l>
+                  <l>Wherewith great <hi>Lucan</hi> doth his Readers maze,</l>
+                  <l>Shall with ſuch radiant illuſtration glide,</l>
+                  <l>(As if each <hi>line</hi> to <hi>life</hi> were <hi>property'd</hi>)</l>
+                  <l>Through all <hi>thy</hi> Workes; And like a Torrent move,</l>
+                  <l>Rowling the <hi>Muſes</hi> to the Court of <hi>Jove,</hi>
+                  </l>
+                  <l>
+                     <hi>Wits</hi> generall Tribe, will ſoone intitle <hi>thee</hi>
+                  </l>
+                  <l>Heire to <hi>Apollo's</hi> ever verdant Tree.</l>
+                  <l>And 'twill by all concluded be, the Stage</l>
+                  <l>Is <hi>widowed</hi> now; was <hi>bed-rid</hi> by <hi>thy age.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Aſwell as Empire, <hi>wit</hi> his Zenith hath,</l>
+                  <l>Nor can the rage of <hi>time,</hi> or <hi>tyrants</hi> wrath</l>
+                  <l>Encloud ſo bright a <hi>flame:</hi> But it will ſhine</l>
+                  <l>In ſpight of <hi>envie,</hi> till it grow <hi>divine.</hi>
+                  </l>
+                  <l>As when <hi>Auguſtus</hi> raign'd, and warre did ceaſe,</l>
+                  <l>
+                     <hi>Romes</hi> braveſt <hi>wits</hi> were uſher'd in by <hi>peace:</hi>
+                  </l>
+                  <l>So in our <hi>Halcyon</hi> dayes, we have had now</l>
+                  <pb n="43" facs="tcp:173154:30"/>
+                  <l>
+                     <hi>Wits,</hi> to which, all that after come, muſt <hi>bow.</hi>
+                  </l>
+                  <l>And ſhould the Stage compoſe her ſelfe a Crowne</l>
+                  <l>Of all thoſe <hi>wits,</hi> which hitherto ſh'as knowne:</l>
+                  <l>Though there be many that about her brow</l>
+                  <l>Like ſparkling ſtones, might a quick luſtre throw:</l>
+                  <l>Yet, <hi>Shakeſpeare, Beaumont, Johnſon,</hi> theſe three ſhall</l>
+                  <l>Make up the Jem in the point Verticall.</l>
+                  <l>And now ſince JOHNSON'S gone, we well may ſay,</l>
+                  <l>The Stage hath ſeene her glory and decay.</l>
+                  <l>Whoſe judgement was't refined it? Or who</l>
+                  <l>Gave Lawes, by which hereafter all muſt goe.</l>
+                  <l>But ſolid JOHNSON? from whoſe full ſtrong <hi>quill,</hi>
+                  </l>
+                  <l>Each <hi>line</hi> did like a Diamond drop diſtill,</l>
+                  <l>Though hard, yet cleare. <hi>Thalia</hi> that had skipt</l>
+                  <l>Before, but like a Maygame girle, now ſtript</l>
+                  <l>Of all her Mimick Jigges, became a ſight</l>
+                  <l>With <hi>mirth,</hi> to flow each pleas'd ſpectators light.</l>
+                  <l>And in ſuch gracefull meaſures, did diſcover</l>
+                  <l>Her beauties now; that every eye turn'd Lover.</l>
+               </lg>
+               <lg>
+                  <l>Who is't ſhall make with great <hi>Sejanus</hi> fall,</l>
+                  <l>Not the Stage crack, but th' Univerſe and all?</l>
+                  <l>Wild <hi>Catilines</hi> ſterne fire, who now ſhall ſhow?</l>
+                  <l>Or quench't with milke, ſtill'd downe by <hi>Cicero?</hi>
+                  </l>
+                  <l>Where ſhall old Authors in ſuch words be ſhowne,</l>
+                  <l>As vex their Ghoſts, that they are not their owne?</l>
+               </lg>
+               <lg>
+                  <l>Admit his Muſe was ſlow. 'Tis Judgements Fate</l>
+                  <l>To move, like greateſt Princes, ſtill in ſtate.</l>
+                  <l>Thoſe Planets placed in the higher Sphoeres,</l>
+                  <l>End not their motion but in many yeares;</l>
+                  <l>VVhereas light <hi>Venus</hi> and the giddy Moone,</l>
+                  <l>In one or ſome few dayes their courſes run.</l>
+                  <l>Slow are ſubſtantiall bodies: But to things</l>
+                  <pb n="44" facs="tcp:173154:31"/>
+                  <l>That ayery are; has Nature added wings.</l>
+                  <l>Each triviall <hi>Poet</hi> that can chant a Rime,</l>
+                  <l>May chatter out his owne <hi>wits</hi> Funerall <hi>chime:</hi>
+                  </l>
+                  <l>And thoſe ſlight <hi>nothings</hi> that ſo ſoone are made,</l>
+                  <l>Like Muſhromes, may together live and fade.</l>
+                  <l>The Boy may make a Squib: But every <hi>line</hi>
+                  </l>
+                  <l>Muſt be <hi>conſidered,</hi> where men ſpring a <hi>mine.</hi>
+                  </l>
+                  <l>And to write things that Time can never ſtaine,</l>
+                  <l>VVill require <hi>ſweat,</hi> and rubbing of the <hi>braine.</hi>
+                  </l>
+                  <l>Such were thoſe things he left. For ſome may be</l>
+                  <l>
+                     <hi>Eccentrick,</hi> yet with Axiomes <hi>maine</hi> agree.</l>
+                  <l>This Ile preſume to ſay. VVhen Time has made</l>
+                  <l>Slaughter of Kings that in the VVorld have ſway'd:</l>
+                  <l>A greener Bayes ſhall Crowne BEN. JOHNSONS Name,</l>
+                  <l>Then ſhall be wreath'd about their Regall Fame.</l>
+                  <l>For Numbers reach to Infinite. But He</l>
+                  <l>Of whom I write this, has prevented me,</l>
+                  <l>And boldly ſaid ſo much in <hi>his</hi> owne praiſe,</l>
+                  <l>No other <hi>pen</hi> need any <hi>Trophie</hi> raiſe.</l>
+               </lg>
+               <byline>OW. FELLTHAM.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="45" facs="tcp:173154:31"/>
+               <head>On BEN: IONSON. TO <hi>MEMORIE.</hi>
+               </head>
+               <l>I Doe not blame their paines who did not doubt</l>
+               <l>By labour of the <hi>Circle</hi> to finde out</l>
+               <l>The <hi>Quadrature;</hi> nor can I thinke it ſtrange</l>
+               <l>That others ſhould prove <hi>conſtancie</hi> in <hi>change.</hi>
+               </l>
+               <l>Hee ſtudy'd not in vaine, who hop'd to give</l>
+               <l>A <hi>Body</hi> to the <hi>Eccho,</hi> make it live,</l>
+               <l>Be ſeene, and felt; nor <hi>hee</hi> whoſe <hi>Art</hi> would borrow</l>
+               <l>Beliefe for ſhaping <hi>yeſterday,</hi> to <hi>morrow:</hi>
+               </l>
+               <l>But heere I yeeld; <hi>Invention, Study, Coſt,</hi>
+               </l>
+               <l>
+                  <hi>Time,</hi> and the <hi>Art</hi> of <hi>Art</hi> it ſelfe is loſt.</l>
+               <l>When any fraile <hi>ambition</hi> undertakes</l>
+               <l>For <hi>Honour, profit, praiſe,</hi> or all their ſakes,</l>
+               <l>To ſpeake unto the <hi>world</hi> in perfect <hi>ſenſe,</hi>
+               </l>
+               <l>
+                  <hi>Pure Judgement</hi> IONSON, 'tis an <hi>excellence</hi>
+               </l>
+               <l>Suted his <hi>Pen</hi> alone, which yet to doe,</l>
+               <l>Requires <hi>himſelfe,</hi> and 'twere a <hi>Labour</hi> too</l>
+               <l>Crowning the beſt of POETS, ſay all ſorts</l>
+               <l>Of braveſt <hi>Acts</hi> muſt die, without reports,</l>
+               <l>Count learned <hi>knowledge</hi> barren, <hi>fame</hi> abhord,</l>
+               <l>Let <hi>Memorie</hi> be nothing but a word:</l>
+               <pb n="46" facs="tcp:173154:32"/>
+               <l>Grant IONSON th' only <hi>Genius</hi> of the <hi>Times,</hi>
+               </l>
+               <l>Fixe <hi>him</hi> a <hi>conſtellation</hi> in all <hi>Rhimes,</hi>
+               </l>
+               <l>All <hi>height,</hi> all <hi>ſecrecies</hi> of <hi>wit</hi> invoke</l>
+               <l>The vertue of his <hi>Name,</hi> to eaſe the <hi>yoke</hi>
+               </l>
+               <l>Of <hi>barbariſme;</hi> yet this lends only praiſe</l>
+               <l>To ſuch as <hi>write,</hi> but addes not to <hi>his Bayes:</hi>
+               </l>
+               <l>For <hi>hee</hi> will grow more freſh in every <hi>Story,</hi>
+               </l>
+               <l>Out of the <hi>perfum'd Spring</hi> of <hi>his</hi> owne <hi>Glorie.</hi>
+               </l>
+               <byline>GEORGE DONNE.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="47" facs="tcp:173154:32"/>
+               <head>A Funerall ſacrifice, to the ſacred memory of his thrice honoured Father <hi>BEN. IOHNSON.</hi>
+               </head>
+               <l>I Cannot <hi>grave,</hi> nor <hi>carve;</hi> elſe would I give</l>
+               <l>Thee <hi>Satues, Sculptures,</hi> and <hi>thy</hi> name ſhould live</l>
+               <l>In <hi>Tombes,</hi> and <hi>braſſe,</hi> untill the <hi>ſtones,</hi> or ruſt</l>
+               <l>Of thine owne Monument, mixe with thy <hi>duſt:</hi>
+               </l>
+               <l>But Nature has afforded me a ſlight</l>
+               <l>And eaſie <hi>Muſe,</hi> yet one that takes her flight</l>
+               <l>Above the <hi>vulgar pitch.</hi> BEN <hi>ſhe</hi> was <hi>thine,</hi>
+               </l>
+               <l>Made by adoption <hi>free</hi> and <hi>genuine.</hi>
+               </l>
+               <l>By vertue of thy Charter, which from Heaven,</l>
+               <l>By <hi>Jove</hi> himſelfe, before thy <hi>birth</hi> was given.</l>
+               <l>The Siſters Nine this ſecret did declare,</l>
+               <l>VVho of <hi>Joves</hi> counſell, and His <hi>daughters</hi> are.</l>
+               <l>Theſe from <hi>Parnaſſus</hi> hill came running downe,</l>
+               <l>And though an Infant did with Laurels <hi>crowne.</hi>
+               </l>
+               <l>Thrice they <hi>him</hi> kiſt, and took <hi>him</hi> in their armes,</l>
+               <l>And dancing round, incircled him with <hi>charmes.</hi>
+               </l>
+               <l>
+                  <hi>Pallas</hi> her Virgin breaſt did thrice diſtill</l>
+               <l>Into his <hi>lips,</hi> and him with <hi>Nectar</hi> fill.</l>
+               <l>VVhen he grew up to yeeres, his <hi>mind</hi> was all</l>
+               <l>On <hi>Verſes: Verſes,</hi> that the Rocks might call</l>
+               <l>To follow him, and Hell it ſelfe command,</l>
+               <l>And wreſt <hi>Joves</hi> three-fold thunder from his hand.</l>
+               <pb n="48" facs="tcp:173154:33"/>
+               <l>The Satires oft times hem'd him in a <hi>ring,</hi>
+               </l>
+               <l>And gave him <hi>pipes</hi> and <hi>reeds</hi> to heare him <hi>ſing:</hi>
+               </l>
+               <l>VVhoſe vocall <hi>notes,</hi> tun'd to <hi>Apolloes</hi> Lyre,</l>
+               <l>The <hi>Syrens,</hi> and the <hi>Muſes</hi> did admire.</l>
+               <l>The <hi>Nymphs</hi> to him their <hi>gemmes</hi> and <hi>corall</hi> ſent;</l>
+               <l>And did with Swannes, and Nightingales preſent</l>
+               <l>Gifts farre beneath his <hi>worth.</hi> The golden Ore,</l>
+               <l>That lyes on <hi>Tagus</hi> or <hi>Pactolus</hi> ſhore,</l>
+               <l>Might not compare with <hi>him,</hi> nor that pure <hi>ſand</hi>
+               </l>
+               <l>The Indians find upon <hi>Hydaſpes</hi> Strand.</l>
+               <l>His fruitfull raptures ſhall grow up to <hi>ſeed.</hi>
+               </l>
+               <l>And as the Ocean does the Rivers <hi>feed,</hi>
+               </l>
+               <l>So ſhall his <hi>wits</hi> rich veines, the VVorld ſupply</l>
+               <l>VVith unexhauſted <hi>wealth,</hi> and ne'r be dry.</l>
+               <l>For whether He, like a fine thread does <hi>file</hi>
+               </l>
+               <l>His terſer Poems in a <hi>Comick ſtile,</hi>
+               </l>
+               <l>Or treates of <hi>tragick furies,</hi> and him liſt,</l>
+               <l>To draw his <hi>lines</hi> out with a ſtronger <hi>twiſt:</hi>
+               </l>
+               <l>
+                  <hi>Minervas,</hi> nor <hi>Arachnes loome</hi> can ſhow</l>
+               <l>Such curious <hi>tracts;</hi> nor does the Spring beſtow</l>
+               <l>Such glories on the Field, or <hi>Flora's</hi> Bowers,</l>
+               <l>As His <hi>works</hi> ſmile with Figures, and with Flowrs.</l>
+               <l>Never did ſo much ſtrength, or ſuch a <hi>ſpell</hi>
+               </l>
+               <l>Of <hi>art,</hi> and <hi>eloquence</hi> of papers dwell.</l>
+               <l>For whil'ſt that he in colours, <hi>full</hi> and <hi>true,</hi>
+               </l>
+               <l>Mens <hi>natures, fancies,</hi> and their <hi>humours</hi> drew</l>
+               <l>In <hi>method, order, matter, ſence</hi> and <hi>grace,</hi>
+               </l>
+               <l>Fitting each perſon to his <hi>time</hi> and <hi>place;</hi>
+               </l>
+               <l>Knowing to <hi>move,</hi> to <hi>ſlacke,</hi> or to make <hi>haſte,</hi>
+               </l>
+               <l>Binding the <hi>middle</hi> with the <hi>firſt</hi> and <hi>laſt:</hi>
+               </l>
+               <l>He fram'd all <hi>minds,</hi> and did all <hi>paſſions</hi> ſtirre,</l>
+               <l>And with a <hi>bridle</hi> guide the Theater.</l>
+               <pb n="49" facs="tcp:173154:33"/>
+               <l>To ſay now He is <hi>dead,</hi> or to maintaine</l>
+               <l>A Paradox he <hi>lives,</hi> were labour vaine:</l>
+               <l>
+                  <hi>Earth</hi> muſt to <hi>earth.</hi> But His faire <hi>ſoule</hi> does weare</l>
+               <l>Bright <hi>Ariadnes</hi> Crowne. Or is plac'd neere,</l>
+               <l>VVhere <hi>Orpheus</hi> Harpe turnes round with <hi>Laedas</hi> Swan:</l>
+               <l>
+                  <hi>Aſtrologers,</hi> demonſtrate where you can,</l>
+               <l>VVhere His Star ſhines, and what part of the Skie,</l>
+               <l>Holds His compendious Divinity,</l>
+               <l>There He is fixt, I know it, cauſe from thence,</l>
+               <l>My ſelfe have lately receiv'd influence.</l>
+               <l>The Reader ſmiles; but let no man deride</l>
+               <l>The Embleme <hi>of my love,</hi> not of my <hi>pride.</hi>
+               </l>
+               <byline>SHACKERLEY MARMION, <hi>In Artibus Magiſter.</hi>
+               </byline>
+            </div>
+            <div type="elegy">
+               <pb n="50" facs="tcp:173154:34"/>
+               <head>On the beſt of Engliſh <hi>Poets,</hi> BEN: IONSON, <hi>Deceaſed.</hi>
+               </head>
+               <l>SO ſeemes a <hi>Starre</hi> to ſhoot; when from our ſight</l>
+               <l>Falls the deceit, not from <hi>its</hi> loſſe of <hi>light;</hi>
+               </l>
+               <l>VVe want uſe of a <hi>Soule,</hi> who meerely know</l>
+               <l>VVhat to our <hi>paſſion,</hi> or our <hi>ſenſe</hi> we owe:</l>
+               <l>By ſuch a <hi>hollow glaſſe,</hi> our <hi>cozen'd eye</hi>
+               </l>
+               <l>Concludes alike, <hi>All dead,</hi> whom it ſees <hi>die.</hi>
+               </l>
+               <l>Nature is <hi>knowledge</hi> here, but un-refin'd,</l>
+               <l>Both differing, as the <hi>Body</hi> from the <hi>Mind:</hi>
+               </l>
+               <l>
+                  <hi>Lawrell</hi> and <hi>Cypreſſe</hi> elſe, had growne together,</l>
+               <l>And <hi>withered</hi> without <hi>Memory</hi> to either;</l>
+               <l>Thus undiſtinguiſh'd, might in every <hi>part</hi>
+               </l>
+               <l>The <hi>Sons</hi> of <hi>Earth</hi> vie with the <hi>Sons</hi> of <hi>Art.</hi>
+               </l>
+               <l>Forbid it, (holy Reverence) to <hi>his</hi> NAME,</l>
+               <l>VVhoſe <hi>Glory</hi> hath fil'd up the <hi>Booke</hi> of <hi>Fame!</hi>
+               </l>
+               <l>VVhere in faire <hi>Capitals,</hi> free, uncontrould,</l>
+               <l>IOHNSON, a worke of <hi>Honour</hi> lives inroul'd:</l>
+               <l>Creates that <hi>Booke</hi> a <hi>Worke;</hi> adds this farre more,</l>
+               <l>'Tis finiſh'd what unperfect was before.</l>
+               <l>The <hi>Muſes,</hi> firſt in <hi>Greece</hi> begot, in <hi>Rome</hi>
+               </l>
+               <l>Brought forth, our <hi>beſt</hi> of <hi>Poets</hi> hath cald home,</l>
+               <l>Nurſt, taught, and planted here; that <hi>Thames</hi> now ſings</l>
+               <l>The <hi>Delphian Altars,</hi> and the ſacred <hi>Springs.</hi>
+               </l>
+               <pb n="51" facs="tcp:173154:34"/>
+               <l>By Influence of this <hi>Soveraigne,</hi> like the <hi>Spheres,</hi>
+               </l>
+               <l>Mov'd each by other, the moſt low (in <hi>yeares</hi>)</l>
+               <l>Contented in their <hi>harmony;</hi> though ſome</l>
+               <l>Malignantly aſpected, overcome</l>
+               <l>VVith popular opinion, aym'd at <hi>Name</hi>
+               </l>
+               <l>More then <hi>deſert:</hi> yet in deſpight of ſhame</l>
+               <l>Ev'n they though foyl'd by <hi>his</hi> contempt of wrongs,</l>
+               <l>Made <hi>muſique</hi> to the harſhnes of their <hi>ſongs.</hi>
+               </l>
+               <l>Drawne to the life of every <hi>line</hi> and <hi>limbe,</hi>
+               </l>
+               <l>
+                  <hi>Hee</hi> (in <hi>his</hi> truth of <hi>Art,</hi> and that in <hi>him</hi>)</l>
+               <l>Lives yet, and will, whiles <hi>letters</hi> can be read</l>
+               <l>The loſſe is ours; now hope of <hi>life</hi> is dead.</l>
+               <l>Great men, and worthy of <hi>Report,</hi> muſt fall</l>
+               <l>Into their earth, and ſleeping there ſleepe <hi>all:</hi>
+               </l>
+               <l>Since <hi>He,</hi> whoſe <hi>Pen</hi> in every <hi>ſtraine</hi> did uſe</l>
+               <l>To drop a <hi>
+                     <g ref="char:V">Ʋ</g>erſe,</hi> and every <hi>
+                     <g ref="char:V">Ʋ</g>erſe</hi> a <hi>Muſe,</hi>
+               </l>
+               <l>Is vow'd to <hi>heaven;</hi> as having with faire <hi>glory,</hi>
+               </l>
+               <l>Sung thankes of <hi>Honour,</hi> or ſome nobler <hi>Story.</hi>
+               </l>
+               <l>The <hi>Court,</hi> the <hi>Vniverſitie,</hi> the heat</l>
+               <l>Of <hi>Theaters,</hi> with what can elſe beget</l>
+               <l>Beliefe, and admiration, cleerely prove</l>
+               <l>Our POET fit in <hi>merit,</hi> as in <hi>love:</hi>
+               </l>
+               <l>Yet if <hi>He</hi> doe not at <hi>his</hi> full appeare,</l>
+               <l>Survey <hi>him</hi> in <hi>his</hi> WORKES, and know <hi>him</hi> there.</l>
+               <byline>IOHN FORD.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="52" facs="tcp:173154:35"/>
+               <head>
+                  <g ref="char:V">Ʋ</g>pon the Death of <hi>Mr. BEN. IOHNSON.</hi>
+               </head>
+               <l>TIs not ſecure to be too <hi>learn'd,</hi> or <hi>good,</hi>
+               </l>
+               <l>Theſe are hard <hi>names,</hi> &amp; now ſcarce underſtood:</l>
+               <l>Dull flagging ſoules with lower parts, may have</l>
+               <l>The vaine oftents of pride upon their Grave,</l>
+               <l>Cut with ſome faire Inſcription, and true crie,</l>
+               <l>That both the Man and Epitaph <hi>there lie!</hi>
+               </l>
+               <l>Whilſt thoſe that ſoare above the Vulgar pitch,</l>
+               <l>And are not in their <hi>bagges,</hi> but <hi>ſtudies</hi> rich,</l>
+               <l>Muſt fall without a <hi>line,</hi> and onely be</l>
+               <l>A Theme of <hi>wonder,</hi> not of <hi>Poetry.</hi>
+               </l>
+               <l>He that dares praiſe the <hi>eminent,</hi> he muſt</l>
+               <l>Either be ſuch, or but revile their <hi>duſt!</hi>
+               </l>
+               <l>And ſo muſt we (Great <hi>Genius</hi> of brave <hi>verſe!</hi>)</l>
+               <l>With our injurious <hi>zeale</hi> prophane <hi>thy</hi> Herſe.</l>
+               <l>It is a taske above our skill, if we</l>
+               <l>Preſume to mourne our owne dead Elegie;</l>
+               <l>Wherein, like Banckrupts in the ſtocke of Fame,</l>
+               <l>To patch our credit up, we uſe <hi>thy</hi> Name;</l>
+               <l>Or cunningly to make our <hi>droſſe</hi> to paſſe,</l>
+               <l>Do ſet a <hi>jewell</hi> in a foile of <hi>braſſe:</hi>
+               </l>
+               <l>No, 'tis the glory of <hi>thy</hi> well-known Name,</l>
+               <l>To be <hi>eternis'd,</hi> not in <hi>verſe</hi> but <hi>Fame.</hi>
+               </l>
+               <pb n="53" facs="tcp:173154:35"/>
+               <l>JOHNSON! that's weight enough to crowne <hi>thy ſtone:</hi>
+               </l>
+               <l>And make the Marble piles to ſweat and grone</l>
+               <l>Under the heavy load! A Name ſhall ſtand</l>
+               <l>Fixt to <hi>thy</hi> Tombe, 'till times deſtroying hand</l>
+               <l>Crumble our duſt together, and this All</l>
+               <l>Sinke to its Grave, at the great Funerall.</l>
+               <l>If ſome leſſe learned <hi>age</hi> neglect <hi>thy pen,</hi>
+               </l>
+               <l>Eclipſe <hi>thy flames,</hi> and looſe the Name of BEN,</l>
+               <l>In ſpight of <hi>ignorance thou</hi> muſt ſurvive</l>
+               <l>In <hi>thy</hi> faire <hi>progeny;</hi> That ſhall revive</l>
+               <l>
+                  <hi>Thy</hi> ſcatter'd <hi>aſhes</hi> in the skirts of <hi>death,</hi>
+               </l>
+               <l>And to <hi>thy</hi> fainting Name give a new <hi>breath;</hi>
+               </l>
+               <l>That twenty ages after, men ſhall ſay</l>
+               <l>(If the Worlds ſtory reach ſo long a day,)</l>
+               <l>
+                  <hi>Pindar</hi> and <hi>Plautus</hi> with their double Quire</l>
+               <l>Have well tranſlated BEN the Engliſh Lyre.</l>
+               <l>What ſweets were in the Greek or Latine known,</l>
+               <l>A naturall Metaphor has made <hi>thine</hi> owne:</l>
+               <l>Their loftie language in thy Phraſe ſo dreſt,</l>
+               <l>And neat conceits in our own <hi>tongue</hi> expreſt,</l>
+               <l>That Ages hence, Criticks ſhall queſtion make</l>
+               <l>Whether the Greeks and Romanes Engliſh ſpake.</l>
+               <l>And though <hi>thy</hi> Phancies were too high for thoſe</l>
+               <l>That but aſpire to COCKEPIT-flight, or <hi>proſe,</hi>
+               </l>
+               <l>Though the fine <hi>Pluſh</hi> and <hi>Velvets</hi> of the <hi>age</hi>
+               </l>
+               <l>Did oft for ſixepence damne <hi>thee</hi> from the Stage,</l>
+               <l>And with their <hi>Maſt</hi> and <hi>Achorne</hi>-ſtomacks, ran</l>
+               <l>To t'h naſtie ſweepings of <hi>thy</hi> Servingman,</l>
+               <l>Before <hi>thy</hi> Cates, and ſwore <hi>thy</hi> ſtronger food,</l>
+               <l>'Cauſe not by them digeſted, was not good;</l>
+               <l>Theſe Moles <hi>thy</hi> ſcorne and pittie did but raiſe,</l>
+               <l>They were as fit to <hi>judge</hi> as we to <hi>praiſe.</hi>
+               </l>
+               <pb n="54" facs="tcp:173154:36"/>
+               <l>VVere all the choiſe of <hi>wit</hi> and <hi>language</hi> ſhowne</l>
+               <l>In one brave Epitaph upon <hi>thy</hi> Stone,</l>
+               <l>Had learned <hi>Donne, Beaumont,</hi> and <hi>Randolph,</hi> all</l>
+               <l>Surviv'd <hi>thy</hi> Fate, and ſung <hi>thy</hi> Funerall,</l>
+               <l>Their Notes had been too lowe: Take this from <hi>mee</hi>—</l>
+               <l>None but <hi>thy ſelfe</hi> could <hi>write</hi> a <hi>verſe</hi> for <hi>thee.</hi>
+               </l>
+               <byline>R. BRIDEOAKE, <hi>A. M. N. C. Oxon.</hi>
+               </byline>
+            </div>
+            <div type="elegy">
+               <pb n="55" facs="tcp:173154:36"/>
+               <head>On Mr. BEN. IOHNSON.</head>
+               <lg>
+                  <l>
+                     <hi>POet</hi> of Princes, Prince of <hi>Poets (wee</hi>
+                  </l>
+                  <l>If to <hi>Apollo</hi> well may pray, to <hi>thee.</hi>)</l>
+                  <l>Give Glo-wormes leave to <hi>peepe,</hi> who till <hi>thy</hi> Night</l>
+                  <l>Could not be ſeene, <hi>we</hi> darkened were with Light.</l>
+                  <l>For Starres t'appeare after the fall o'th' Sun,</l>
+                  <l>Is at the leaſt modeſt <hi>preſumption.</hi>
+                  </l>
+                  <l>I've ſeene a great Lamp lighted by the ſmall</l>
+                  <l>Sparke of a Flint, found in a Field or VVall.</l>
+                  <l>Our thinner <hi>verſe</hi> faintly may ſhaddow forth</l>
+                  <l>A dull reflexion of <hi>thy</hi> glorious <hi>worth;</hi>
+                  </l>
+                  <l>And (like a Statue homely faſhion'd) raiſe</l>
+                  <l>Some <hi>Trophies</hi> to <hi>thy</hi> Mem'rie, though not Praiſe.</l>
+                  <l>Thoſe ſhallow Sirs, who want ſharpe ſight to look</l>
+                  <l>On the Majeſtique ſplendour of <hi>thy</hi> Booke.</l>
+                  <l>That rather chooſe to heare an <hi>Archy's</hi> prate,</l>
+                  <l>Then the full ſence of a learn'd Laureate,</l>
+                  <l>May when they ſee <hi>thy</hi> Name thus plainly writ,</l>
+                  <l>Admire the ſolemne meaſures of <hi>thy wit,</hi>
+                  </l>
+                  <l>And like <hi>thy</hi> Workes beyond a gawdy Showe</l>
+                  <l>Of Boards and Canvas, wrought by INIGO.</l>
+                  <l>
+                     <hi>Plough-men</hi> who puzzled are with Figures, come</l>
+                  <l>By Tallies to the reckning of a Summe.</l>
+                  <l>And Milk-ſop Heires, which from their Mothers Lappe</l>
+                  <l>Scarce travaild, know farre Countries by a Mappe.</l>
+               </lg>
+               <lg>
+                  <pb n="56" facs="tcp:173154:37"/>
+                  <l>
+                     <hi>Shakeſpeare</hi> may make <hi>griefe</hi> merry, <hi>Beaumonts</hi> ſtile</l>
+                  <l>Raviſh and melt anger into a ſmile;</l>
+                  <l>In winter <hi>nights,</hi> or after <hi>meales</hi> they be,</l>
+                  <l>I muſt confeſſe very good companie:</l>
+                  <l>But <hi>thou</hi> exact'ſt our beſt houres induſtrie;</l>
+                  <l>Wee may read <hi>them;</hi> we ought to ſtudie <hi>thee:</hi>
+                  </l>
+                  <l>Thy <hi>Scoenes</hi> are <hi>precepts,</hi> every <hi>verſe</hi> doth give</l>
+                  <l>Counſell, and teach us not to <hi>laugh,</hi> but <hi>live.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>You that with towring thoughts preſume ſo high,</l>
+                  <l>(Sweld with a vaine ambitious <hi>Timpanie</hi>)</l>
+                  <l>To dreame on <hi>ſcepters,</hi> whoſe brave miſchiefe cals</l>
+                  <l>The blood of <hi>Kings</hi> to their laſt Funeralls:</l>
+                  <l>Learne from <hi>Sejanus</hi> his high fall, to prove</l>
+                  <l>To thy <hi>dread Soveraigne</hi> a ſacred <hi>love,</hi>
+                  </l>
+                  <l>Let him ſuggeſt a reverend feare to <hi>thee,</hi>
+                  </l>
+                  <l>And may his <hi>Tragedy,</hi> Thy <hi>Lecture</hi> bee.</l>
+                  <l>Learne the compendious <hi>Age</hi> of ſlippery Power</l>
+                  <l>That's built on blood; and may one little houre</l>
+                  <l>Teach thy bold raſhneſſe that it is not ſafe</l>
+                  <l>To build a <hi>Kingdome</hi> on a <hi>Caeſars</hi> grave.</l>
+                  <l>Thy <hi>Playes</hi> were whipt and libel'd, only 'cauſe</l>
+                  <l>Th'are good, and ſavour of our <hi>Kingdomes</hi> Lawes;</l>
+                  <l>HISTRIO-MASTIX (lightning like) doth wound</l>
+                  <l>Thoſe things alone that <hi>ſolid</hi> are and <hi>ſound.</hi>
+                  </l>
+                  <l>Thus <hi>guiltie Men</hi> hate <hi>juſtice;</hi> ſo a <hi>glaſſe</hi>
+                  </l>
+                  <l>Is ſometimes broke for ſhewing a <hi>foule Face.</hi>
+                  </l>
+                  <l>There's none that wiſh Thee <hi>Rods</hi> inſtead of <hi>Bayes,</hi>
+                  </l>
+                  <l>But ſuch, whoſe very <hi>hate</hi> adds to <hi>thy Praiſe.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Let <hi>Scriblers</hi> (that write Poſt, and verſifie</l>
+                  <l>VVith no more leaſure then wee caſt a <hi>Die</hi>)</l>
+                  <l>Spurre on their <hi>Pegaſus,</hi> and proudly crie,</l>
+                  <l>This <hi>
+                        <g ref="char:V">Ʋ</g>erſe</hi> I made ith' twinckling of an eye.</l>
+                  <pb n="57" facs="tcp:173154:37"/>
+                  <l>
+                     <hi>Thou</hi> couldſt have done ſo, hadſt <hi>thou</hi> thought it fit;</l>
+                  <l>But 'twas the wiſedome of <hi>thy Muſe</hi> to ſit</l>
+                  <l>And weigh each <hi>ſyllable;</hi> ſuffering nought to paſſe</l>
+                  <l>But what could be no better then it was.</l>
+                  <l>Thoſe that keepe <hi>pompous State</hi> nere goe in haſt;</l>
+                  <l>Thou went'ſt before them all, though not ſo faſt.</l>
+                  <l>VVhile their poore <hi>Cobweb-ſtuffe</hi> finds as quick <hi>Fate</hi>
+                  </l>
+                  <l>As <hi>Birth,</hi> and ſells like <hi>Almanacks</hi> out of date;</l>
+                  <l>The marble <hi>Glory</hi> of <hi>thy</hi> labour'd <hi>Rhime</hi>
+                  </l>
+                  <l>Shall live beyond the <hi>Calendar</hi> of <hi>Time.</hi>
+                  </l>
+                  <l>VVho will their <hi>Meteors</hi> 'bove thy <hi>Sun</hi> advance?</l>
+                  <l>
+                     <hi>Thine</hi> are the <hi>Works</hi> of <hi>judgement,</hi> theirs of <hi>chance.</hi>
+                  </l>
+                  <l>How this whole <hi>Kingdome</hi>'s in <hi>thy</hi> debt! wee have</l>
+                  <l>From others <hi>Perewigs</hi> and <hi>Paints,</hi> to ſave</l>
+                  <l>Our ruin'd <hi>Sculls</hi> and <hi>Faces;</hi> but to <hi>Thee</hi>
+                  </l>
+                  <l>VVe owe our <hi>Tongues,</hi> and <hi>Fancies</hi> remedie.</l>
+                  <l>Thy <hi>Poems</hi> make us <hi>Poets;</hi> wee may lacke</l>
+                  <l>(Reading <hi>thy</hi> BOOKE) <hi>ſtolne ſentences</hi> and <hi>Sack.</hi>
+                  </l>
+                  <l>Hee that can but one <hi>ſpeech</hi> of <hi>thine</hi> reherſe,</l>
+                  <l>VVhether hee will or no, muſt make a <hi>
+                        <g ref="char:V">Ʋ</g>erſe.</hi>
+                  </l>
+                  <l>Thus <hi>Trees</hi> give <hi>fruit,</hi> the <hi>kernels</hi> of that <hi>Fruit,</hi>
+                  </l>
+                  <l>Doe bring forth <hi>Trees,</hi> which in more <hi>branches</hi> ſhoot.</l>
+                  <l>Our <hi>canting</hi> ENGLISH (of it ſelfe alone)</l>
+                  <l>(I had almoſt ſaid a <hi>Confuſion</hi>)</l>
+                  <l>Is now all <hi>harmony;</hi> what we did ſay</l>
+                  <l>Before was <hi>tuning</hi> only, this is <hi>Play.</hi>
+                  </l>
+                  <l>Strangers, who cannot reach <hi>thy ſenſe,</hi> will throng</l>
+                  <l>To heare us ſpeake the <hi>Accents</hi> of <hi>thy Tongue</hi>
+                  </l>
+                  <l>As unto <hi>Birds</hi> that ſing; if't be ſo good</l>
+                  <l>When heard alone, what is't when underſtood!</l>
+                  <l>
+                     <hi>Thou</hi> ſhalt be read as <hi>Claſſick Authors;</hi> and</l>
+                  <l>As <hi>Greeke</hi> and <hi>Latine</hi> taught in every Land.</l>
+                  <pb n="58" facs="tcp:173154:38"/>
+                  <l>The <hi>cringing Mounſieur</hi> ſhall <hi>thy Language</hi> vent,</l>
+                  <l>When he would melt his <hi>Wench</hi> with <hi>Complement.</hi>
+                  </l>
+                  <l>Uſing <hi>thy Phraſes</hi> he may have his wiſh</l>
+                  <l>Of a coy <hi>Nun,</hi> without an angry <hi>Piſh.</hi>
+                  </l>
+                  <l>And yet in all <hi>thy</hi> POEMS there is ſhowne</l>
+                  <l>Such <hi>Chaſtitie,</hi> that every <hi>Line's</hi> a <hi>Zone.</hi>
+                  </l>
+                  <l>
+                     <hi>Rome</hi> will confeſſe that <hi>thou</hi> makſt <hi>Caeſar</hi> talke</l>
+                  <l>In greater <hi>ſtate</hi> and <hi>pompe</hi> then he could walke.</l>
+                  <l>
+                     <hi>Catilines</hi> tongue is the true edge of ſwords,</l>
+                  <l>We now not onely heare, but feele his <hi>words.</hi>
+                  </l>
+                  <l>Who <hi>Tully</hi> in <hi>thy Idiome</hi> underſtands</l>
+                  <l>Will ſweare that his <hi>Orations</hi> are <hi>commands.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>But that which could with richer <hi>Language</hi> dreſſe</l>
+                  <l>The higheſt <hi>ſenſe,</hi> cannot <hi>thy Worth</hi> expreſſe.</l>
+                  <l>Had I <hi>thy</hi> owne <hi>Invention</hi> (which affords</l>
+                  <l>"<hi>Words above Action, matter above words</hi>)</l>
+                  <l>To crowne <hi>thy Merits,</hi> I ſhould only bee</l>
+                  <l>Sumptuouſly <hi>poore,</hi> low in <hi>Hyperbole.</hi>
+                  </l>
+               </lg>
+               <byline>RICHARD WEST.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="59" facs="tcp:173154:38"/>
+               <lg>
+                  <l>OUr <hi>Bayes</hi> (me thinks) are withered, and they looke</l>
+                  <l>As if (though thunder-free) with <hi>envy,</hi> ſtrooke;</l>
+                  <l>While the triumphant <hi>Cipreſſe</hi> boaſt to be</l>
+                  <l>Deſign'd, as fitter for <hi>thy</hi> companie.</l>
+               </lg>
+               <lg>
+                  <l>Where ſhall we now find one dares boldly write,</l>
+                  <l>Free from baſe <hi>flattery</hi> yet as void of <hi>ſpight?</hi>
+                  </l>
+                  <l>That grovels not in's <hi>Satyres,</hi> but ſoares high,</l>
+                  <l>Strikes at the mounting <hi>vices,</hi> can deſcry</l>
+                  <l>With <hi>his</hi> quicke <hi>Eagles Pen</hi> thoſe glorious <hi>crimes,</hi>
+                  </l>
+                  <l>That either dazle, or affright the <hi>Times?</hi>
+                  </l>
+                  <l>Thy ſtrength of <hi>Iudgement</hi> oft did thwart the tide</l>
+                  <l>O'th' foaming multitude, when to their ſide</l>
+                  <l>Throng'd <hi>pluſh,</hi> and <hi>ſilken cenſures,</hi> whilſt it choſe,</l>
+                  <l>(As that which could diſtinguiſh <hi>Men</hi> from <hi>cloathes,</hi>
+                  </l>
+                  <l>
+                     <hi>Faction</hi> from <hi>judgement</hi>) ſtill to keepe <hi>thy Ba<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>es</hi>
+                  </l>
+                  <l>From the ſuſpition of a <hi>vulgar praiſe.</hi>
+                  </l>
+                  <l>But why wrong I <hi>thy memory</hi> whilſt I ſtrive,</l>
+                  <l>In ſuch a <hi>Verſe</hi> as mine to keep't alive?</l>
+                  <l>Well wee may <hi>toyle,</hi> and ſhew our <hi>wits</hi> the <hi>racke;</hi>
+                  </l>
+                  <l>Torture our needy <hi>fancies,</hi> yet ſtill lacke</l>
+                  <l>Worthy <hi>Expreſſions</hi> Thy great <hi>loſſe to moane,</hi>
+                  </l>
+                  <l>Being none can fully praiſe <hi>thee</hi> but <hi>thy owne.</hi>
+                  </l>
+               </lg>
+               <byline>R. MEADE.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="60" facs="tcp:173154:39"/>
+               <head>VPON THE DEATH OF BENIAMIN IOHNSON.</head>
+               <l>LEt <hi>thine</hi> owne <hi>Sylla</hi> (BEN) ariſe, and trye</l>
+               <l>To teach my thoughts an angry <hi>Extaſie;</hi>
+               </l>
+               <l>That I may fright <hi>Contempt,</hi> and with juſt darts</l>
+               <l>Of fury ſticke <hi>thy Palſey</hi> in their <hi>Hearts:</hi>
+               </l>
+               <l>But why doe I reſcue <hi>thy Name</hi> from <hi>thoſe</hi>
+               </l>
+               <l>That only caſt away their <hi>eares</hi> in <hi>Proſe:</hi>
+               </l>
+               <l>Or, if ſome better <hi>Braine</hi> arrive ſo high,</l>
+               <l>To venture <hi>Rhimes,</hi> 'tis but <hi>Court-Balladry,</hi>
+               </l>
+               <l>Singing <hi>thy</hi> death in ſuch an uncouth <hi>Tone,</hi>
+               </l>
+               <l>As it had beene an <hi>Execution.</hi>
+               </l>
+               <l>What are his fauls (O <hi>Envy!</hi>) that you ſpeake</l>
+               <l>
+                  <hi>Engliſh</hi> at Court, the learned <hi>Stage</hi> acts <hi>Greeke?</hi>
+               </l>
+               <l>That <hi>Latine Hee</hi> reduc'd, and could command</l>
+               <l>That which your <hi>Shakeſpeare</hi> ſcarce could underſtand?</l>
+               <l>That <hi>Hee</hi> expos'd you <hi>Zelots,</hi> to make knowne</l>
+               <l>Your <hi>Prophanation;</hi> and not <hi>his owne?</hi>
+               </l>
+               <l>That <hi>One</hi> of ſuch a <hi>fervent Noſe,</hi> ſhould be</l>
+               <l>Pos'd by a <hi>Puppet</hi> in DIVINITIE?</l>
+               <l>
+                  <hi>Fame</hi> write 'em on <hi>his Tombe,</hi> and let <hi>him</hi> have</l>
+               <l>Their <hi>Accuſations</hi> for an <hi>Epitaph:</hi>
+               </l>
+               <l>Nor thinke it ſtrange if ſuch thy <hi>Scoenes</hi> defie,</l>
+               <l>That erect <hi>Scaffolds</hi> 'gainſt <hi>Authoritie.</hi>
+               </l>
+               <pb n="61" facs="tcp:173154:39"/>
+               <l>Who now will <hi>plot</hi> to <hi>cozen <g ref="char:V">Ʋ</g>ice,</hi> and tell</l>
+               <l>The <hi>Tricke</hi> and <hi>Policie</hi> of <hi>doing well?</hi>
+               </l>
+               <l>Others may pleaſe the <hi>Stage, His</hi> ſacred <hi>Fire</hi>
+               </l>
+               <l>Wiſe men did rather <hi>worſhip</hi> then <hi>admire:</hi>
+               </l>
+               <l>His <hi>lines</hi> did reliſh <hi>mirth,</hi> but ſo ſevere;</l>
+               <l>That as <hi>they tickled, they</hi> did <hi>wound</hi> the <hi>Eare.</hi>
+               </l>
+               <l>Well then, ſuch <hi>Vertue</hi> cannot die, though <hi>Stones</hi>
+               </l>
+               <l>Loaded with <hi>Epitaphs</hi> doe preſſe <hi>his Bones:</hi>
+               </l>
+               <l>
+                  <hi>Hee</hi> lives to <hi>mee;</hi> ſpite of this <hi>Martyrdome:</hi>
+               </l>
+               <l>BEN, is the ſelfe ſame POET in the <hi>Tombe.</hi>
+               </l>
+               <l>You that can <hi>Aldermen</hi> new <hi>Wits</hi> create,</l>
+               <l>Know, IOHNSONS <hi>Sceleton</hi> is <hi>Laureate.</hi>
+               </l>
+               <byline>H. RAMSAY.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="62" facs="tcp:173154:40"/>
+               <l>En</l>
+               <l>Ionſonus noſter</l>
+               <l>Lyricorum Drammaticorumque</l>
+               <l>Coriphaeus</l>
+               <l>Qui</l>
+               <l>Pallide auſpice</l>
+               <l>Lauruma Grecia ipſaque Roma</l>
+               <l>rapuit.</l>
+               <l>Et</l>
+               <l>Fauſto omnine</l>
+               <l>In Britannian tranſtulit</l>
+               <l>noſtram</l>
+               <l>Nunc</l>
+               <l>In vidia major</l>
+               <l>Fato, non Aemulus</l>
+               <l>ceſſit</l>
+               <closer>
+                  <dateline>
+                     <date>
+                        <hi>Anno Dom.</hi> MCIXXVII. <hi>Id Nonar.</hi>
+                     </date>
+                  </dateline>
+               </closer>
+               <byline>FR: WORTLEY, Baronet.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="63" facs="tcp:173154:40"/>
+               <head>In obitum BEN: IONSONI <hi>Poetarum</hi> facile Principis.</head>
+               <lg>
+                  <l>IN quae proijcior diſcrimina? quale trementem</l>
+                  <l>Traxit in officium piet as temeraria Muſam?</l>
+                  <l>Me miſerum; incuſſo pertentor frigore, &amp; umbrâ</l>
+                  <l>Territus ingenti videor pars Funeris ipſe</l>
+                  <l>Quod celebro; famae concepta mole fatiſco,</l>
+                  <l>Exiquumque ſtrues reſtringuit praegravis ignem.</l>
+               </lg>
+               <lg>
+                  <l>Non tamen abſiſtam, nam ſi ſpes tolibus auſis</l>
+                  <l>Excidat, extabo laudum <hi>JOHNSONE</hi> tuarum</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>berior teſtis: totidem quos ſecula norunt,</l>
+                  <l>Solus tu dignus, cuius praeconia ſpiret,</l>
+                  <l>Deliquium Muſarum, &amp; victi facta <hi>Poetae.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Quis neſcit, <hi>Romane</hi> tuos, in utrâque triumphos</l>
+                  <l>Militiâ, Lauri<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> decus mox ſceptra ſecutum:</l>
+                  <l>
+                     <hi>Virgilius</hi> quo<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>Caeſar</hi> erat, nec ferre priorem</l>
+                  <l>Noverat: <hi>Auguſtum</hi> fato dilatus in aevum,</l>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t Regemvatem jactares regia, Teque</l>
+                  <l>Suſpiceres gemino praeluſtrem <hi>Roma</hi> Monarchâ.</l>
+               </lg>
+               <lg>
+                  <l>En penitus toto diviſos orbe Brittannos,</l>
+                  <l>Munera jactantes eadem, ſimili<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> beatos</l>
+                  <l>Fortuna; haec quo<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſecla ſuum videre <hi>Maronem,</hi>
+                  </l>
+                  <l>
+                     <hi>Caeſarei</hi> vixit qui laetus imagine ſceptri,</l>
+                  <l>Emplevit<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſuum <hi>Romana</hi> carmine nomen.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <g ref="char:V">Ʋ</g>t<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> viam cernas, langoſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ad ſumma paratus;</l>
+                  <l>En ſeries eadem, vatum<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſimillimus ordo.</l>
+                  <pb n="64" facs="tcp:173154:41"/>
+                  <l>Quis neget incultum <hi>Lucreti</hi> carmen, &amp; Enni</l>
+                  <l>Deformes numeros, Muſae incrementa Latinae?</l>
+               </lg>
+               <lg>
+                  <l>Haud aliter noſtri praemiſſa in principis ortum</l>
+                  <l>Ludicra <hi>Chauceri,</hi> claſſiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> incompta ſequentum;</l>
+                  <l>Naſcenti aptaparum divina haec machina regno,</l>
+                  <l>In noſtrum ſervanda fuit, tantae<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> decebat</l>
+                  <l>Praeluſiſſe Deos aevi certamina famae;</l>
+                  <l>Nec geminos vates, nec Te <hi>Shaksſpeare</hi> ſilebo,</l>
+                  <l>Aut quicquid ſacri noſtros conjecit in annos</l>
+                  <l>Conſilium Fati: per ſeros ite nepotes</l>
+                  <l>Illuſtres animae, demiſſa<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> nomina ſemper</l>
+                  <l>Candidior fama excipiat; ſed parcite Divi,</l>
+                  <l>Si majora vocant, ſi pagina ſanctior urget.</l>
+                  <l>Est vobis decor, et nativae gratia Muſae,</l>
+                  <l>Quae trahit at<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> tenet, quae me modô laeta remittit,</l>
+                  <l>Excitum modô in alta rapit, verſat<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> legentem.</l>
+               </lg>
+               <lg>
+                  <l>Sed quàm te memorem vatum Deus: O novagentis</l>
+                  <l>Gloria &amp; ignoto turgeſcens Muſa cothurno!</l>
+                  <l>Quàm ſolidat vires, quàm pingui robore ſurgens</l>
+                  <l>Invadit<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> haurit<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> animam: haud temerarius ille</l>
+                  <l>Qui mos est reliquis, probat obvia, magna<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> fundit</l>
+                  <l>Felici tantum genio; ſed deſtinat ictum,</l>
+                  <l>Sed vafer et ſapiens cunctator praevia ſternit,</l>
+                  <l>Furtivo<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> gradu ſubvectus in ardua, tandem</l>
+                  <l>Dimittit pleno correptos fulmine ſenſus.</l>
+               </lg>
+               <lg>
+                  <l>Huc, precor, accedat quiſquis primo igne calentem</l>
+                  <l>Ad numeros ſua Muſa vocat, nondum<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſubacti</l>
+                  <l>Ingenij novitate tumens in carmina fertur</l>
+                  <l>Non normae legiſve memor; quis ferre ſoluti</l>
+                  <l>Naufragium ingenij poterit, mentiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ruinam?</l>
+                  <l>Quanto pulchrior hic medijs qui regnat in undis,</l>
+                  <l>Turbine correptus nullo: cui ſpiritus ingens</l>
+                  <pb n="65" facs="tcp:173154:41"/>
+                  <l>Non artem vincit: medio ſed verus in oeſtro,</l>
+                  <l>Princeps inſano pugnantem numine muſam</l>
+                  <l>Edomat, &amp; cudit ſuſpenſo metra furore.</l>
+               </lg>
+               <lg>
+                  <l>In rabiem <hi>Catilina</hi> tuam converſus &amp; artes</l>
+                  <l>Qualia molitur; quali bacchatur hiatu?</l>
+                  <l>En mugitum oris, conjuratae<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> 
+                     <hi>Camaenae,</hi>
+                  </l>
+                  <l>Divinas furias &amp; non imitable fulmen!</l>
+                  <l>O verum <hi>Ciceronis</hi> opus, linguae<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> diſertae,</l>
+                  <l>Elogium ſpirans: O vox aeterna <hi>Catonis,</hi>
+                  </l>
+                  <l>
+                     <hi>Caeſaream</hi> reſerans fraudem, retrahenſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ſequaces</l>
+                  <l>Patricios in caedem, &amp; funera certa reorum:</l>
+                  <l>Quis fando expediat primae ſolennia pompae,</l>
+                  <l>Et circumfuſi ſtudium plauſuſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Theatri?</l>
+                  <l>Non tu divini <hi>Cicero</hi> dux inclyte facti,</l>
+                  <l>
+                     <hi>Romave</hi> majores vidit ſervata triumphos.</l>
+               </lg>
+               <lg>
+                  <l>Celſior incedis noſtro, Sejane, cothurno</l>
+                  <l>Quàm te <hi>Romani,</hi> quâm te tua fata ferebant:</l>
+                  <l>Hinc magis inſigni caſu, celebri<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> ruina</l>
+                  <l>Volveris, &amp; gravius terrent exempla Theatri.</l>
+               </lg>
+               <lg>
+                  <l>At tu ſtas nunquam ruituro in culmine vates,</l>
+                  <l>Deſpiciens auras, &amp; fallax numen Amici,</l>
+                  <l>Tutus honore tuo, genitae<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> volumine famae.</l>
+                  <l>A capreis verboſa &amp; grandis epiſtola fruſtra</l>
+                  <l>Venerat, offenſo major fruerere Tonante,</l>
+                  <l>Si ſic creviſſes, ſi ſic, Sejane, ſtetiſſes.</l>
+                  <l>O fortunatum, qui te, <hi>JONSONE,</hi> ſequutus</l>
+                  <l>Contexit ſua fila, ſui<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> est Nominis Author.</l>
+               </lg>
+               <byline>T. TERRENT.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="66" facs="tcp:173154:42"/>
+               <head>VATVM PRINCIPI, <hi>BEN. JONSONO</hi> Sacrum.</head>
+               <l>Poetarum Maxime!</l>
+               <l>Sive Tu mortem, ſive Ecſtaſin paſſus,</l>
+               <l>Jaces verendum et plus quam Hominis funus.</l>
+               <l>Sic poſt receptam ſacri furoris Gloriam,</l>
+               <l>
+                  <gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>m exhauſtum jam Numen Decoxit emerita Vates</l>
+               <l>Jugi<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> fluxu non reditura ſe prodegit Anima,</l>
+               <l>Jacuit <hi>Sibyllae</hi> cadaver,</l>
+               <l>Vel trepidis adhuc cultoribus conſulendum.</l>
+               <l>Nulli ſe longius indulſit DEVS, nulli aegrius valedixit;</l>
+               <l>Pares teſtatus flammas,</l>
+               <l>Dum Exul, ac dum Incola.</l>
+               <l>Annorum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> jam ingruente Veſpere,</l>
+               <l>Pectus Tuum, tanquam Poeſeos Horizonta,</l>
+               <l>Non ſine Rubore ſuo reliquit:</l>
+               <l>Vatibus nonnullis ingentia prodere; nec ſcire datur:</l>
+               <l>Magnum alijs Myſterium, majus ſibi,</l>
+               <l>Ferarum ritu vaticinantium</l>
+               <l>Incluſum jactant Numen quod neſciunt,</l>
+               <l>Et inſtinctu ſapiunt non Intellecto.</l>
+               <l>Quibus dum ingenium facit Audacia, prodeſt Ignorare:</l>
+               <l>Tibi Primo contigit furore frui proprio,</l>
+               <pb n="67" facs="tcp:173154:42"/>
+               <l>Et Numen regeri Tuum.</l>
+               <l>Dum pari luctâ Afflatibus Iudicium commiſiſti,</l>
+               <l>Bis <hi>Entheatus:</hi>
+               </l>
+               <l>Aliaſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Muſis Mutas addidiſti, Artes et Scientias,</l>
+               <l>Tui plenus Poeta.</l>
+               <l>Qui furorem Inſaniae eximens</l>
+               <l>Docuiſti, et ſobrie Aonios Latices hauriri,</l>
+               <l>Primus Omnium.</l>
+               <l>Qui Effroenem <hi>Caloris</hi> luxuriem frugi <hi>Conſilio</hi> caſtigaveris,</l>
+               <l>Vt tandem Ingenium ſine veniâ placiturum</l>
+               <l>Poſſideret Britannia,</l>
+               <l>Miraretur Orbis,</l>
+               <l>Nihil<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> inveniret ſcriptis Tuis donandum, praeter famam.</l>
+               <l>Quòd Prologi igitùr</l>
+               <l>Velut Magnatum Propylaea Domini Titulos proferunt,</l>
+               <l>Perpetuum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> celebratur Argumentum, Ipſe Author,</l>
+               <l>Non Arrogantis hoc eſt, ſed Iudicantis,</l>
+               <l>Aut Vaticinantis.</l>
+               <l>Virtutis enim illud et vatis eſt, ſibi placere,</l>
+               <l>Proinde non Invidiâ tantum noſtrâ, ſed Laude Tuâ</l>
+               <l>Magnum Te prodire juſſerunt fata.</l>
+               <l>Qui Integrum Nobis Poetam ſolus exhibuiſti,</l>
+               <l>Vnuſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> omnes exprimens.</l>
+               <l>Cum frondes Alij Laureas Decerpunt, Tu totum Nemus vindicas,</l>
+               <l>Nec Adulator Laudas, nec invidus perſtringis:</l>
+               <l>Vtrum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> exoſus.</l>
+               <l>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>el Sacrificio Tuo Mella, vel Medicinae Acetum immiſcere.</l>
+               <l>Nec Intenſo nimis ſpiritu Avenam Dirupiſti:</l>
+               <l>Nec exili nimis Tubam emaculaſti;</l>
+               <l>Servatis vtrin<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Legibus, Lex ipſi factus.</l>
+               <l>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nâ obſequij religione Imperium nactus es:</l>
+               <l>Rerum ſervus, non Temporum.</l>
+               <pb n="68" facs="tcp:173154:43"/>
+               <l>Ita omnium Muſarum Amaſius,</l>
+               <l>Omnibus perpetuum certamen aſtas.</l>
+               <l>Sit <hi>Homeri</hi> gloria</l>
+               <l>Vrbes de ſe certantes habere, de te diſputant <hi>Muſae,</hi>
+               </l>
+               <l>Qui ſeu cothurno niteris, inter Poetas Tonans Pater,</l>
+               <l>Sive ſoccum Pede comples rotundo,</l>
+               <l>Et Epigrammata Dictas Agenda,</l>
+               <l>Facetiaſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Manibus exprimendas,</l>
+               <l>Adoranda poſteris Ducis veſtigia, et nobis unus es Theatrum Metari.</l>
+               <l>Non Arenae ſpectacula ſcena exhibuit Tua,</l>
+               <l>Nec Poemata, ſed Poeſin ipſam parturijt,</l>
+               <l>Populo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Mentes, et Leges miniſtravit,</l>
+               <l>Quibus Te damnare poſſent, ſi Tu poteras peccare.</l>
+               <l>Sic et Oculos ſpectanti praeſtas, et ſpectacula;</l>
+               <l>Scenam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> condis quae Legi magis geſtiat quam ſpectari,</l>
+               <l>Non Hiſtrioni ſuum delitura ingenium,</l>
+               <l>Queis nullus Alij <hi>Apollo,</hi> ſed <hi>Mercurius</hi> Numen,</l>
+               <l>Quibus Afflatus praeſtant vinum et Amaſia,</l>
+               <l>Trudunt<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> in <hi>Scenam</hi> vitia, Morbo Poetae.</l>
+               <l>Quibus Muſa Pagis primiſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Plauſtris apta,</l>
+               <l>Praemoriturum vati carmen,</l>
+               <l>Non edunt, ſed abortiunt;</l>
+               <l>Cui ipſum etiam praelum conditorium eſt,</l>
+               <l>Novâ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Lucinae fraude in Tenebras emittuntur Authores,</l>
+               <l>Dum Poemata ſic ut Diaria,</l>
+               <l>Suo tantum Anno et Regioni effingunt,</l>
+               <l>Sic quo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <hi>Plauti</hi> Moderni ſales,</l>
+               <l>Ipſi tantum <hi>Plauto</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>:</l>
+               <l>Et vernaculae nimium <hi>Ariſtophanis</hi> facetiae</l>
+               <l>Non extra ſuum Theatrum Plauſus invenerunt:</l>
+               <l>Tu interim</l>
+               <l>Saculi ſpiras quo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> poſt futuri Genium.</l>
+               <pb n="69" facs="tcp:173154:43"/>
+               <l>Idem<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Tuum et Orbis Theatrum eſt,</l>
+               <l>Dum Immenſum, cum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Lectore creſcens Carmen;</l>
+               <l>Et perenne uno fundis Poema verbo,</l>
+               <l>Tuas Tibi gratulamur foelices Moras!</l>
+               <l>Quanquam quid moras reprehendimus, quas noſtri fecit reverentia?</l>
+               <l>Aeternùm ſcribi debuit quicquid aeternum legi.</l>
+               <l>Poteras Tu ſolus</l>
+               <l>Stylo ſceptris Majore Orbem moderari.</l>
+               <l>
+                  <hi>Romae</hi> Britannos ſubjugavit Gladius,</l>
+               <l>
+                  <hi>Romam</hi> Britannis Calamus tuus,</l>
+               <l>Quam ſic vinci geſtientem,</l>
+               <l>Cothurno <hi>Angliaco</hi> ſublimiorem quam ſuis Collibus cernimus,</l>
+               <l>Demum quod majus eſt, aetatem Nobis noſtram ſubijcis;</l>
+               <l>Oraculi<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Vicarius,</l>
+               <l>Quod juſſit DEVS, Fides praeſtat Sacerdos,</l>
+               <l>Homines ſeipſos Noſcere inſtituens.</l>
+               <l>Lingua Noſtra</l>
+               <l>Tibi collactanea Tecum crevit,</l>
+               <l>Voceſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> patrias, et Tuas ſimùl formaſti.</l>
+               <l>Nec Indigenam amplius, ſed <hi>JONSONI</hi> jactamus facundiam,</l>
+               <l>Vt inde ſemper Tibi contingat Tuâ Linguâ Celebrari;</l>
+               <l>Qui et <hi>Romam</hi>
+               </l>
+               <l>Diſertiores docuiſti voces</l>
+               <l>Mancipiali Denuò Iocomate ſuperbientem,</l>
+               <l>
+                  <hi>Graeciam<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>
+                  </hi> etiam</l>
+               <l>Orbis Magiſtram excoluiſti,</l>
+               <l>Nunc aliâ quàm Atticâ <hi>Minervâ</hi> Eloquentem.</l>
+               <l>Te ſolo <hi>Dives</hi> poteras Aliorum Ingenia contemnere,</l>
+               <l>Et vel ſine Illis evaſiſſes Ingenij compendium:</l>
+               <l>Sed ut ille Pictor,</l>
+               <l>Mundo daturus par Ideae Exemplar,</l>
+               <l>Quas hinc et inde Pulchritudines</l>
+               <pb n="70" facs="tcp:173154:44"/>
+               <l>Sparſerat Natura,</l>
+               <l>Collegit Artifex:</l>
+               <l>Formae<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> rivulos palantes in unum cogens Oceanum,</l>
+               <l>Inde exire juſſit alteram ſine naevo <g ref="char:V">Ʋ</g>enerem.</l>
+               <l>Ita Tibi parem Machinam molito,</l>
+               <l>In hoc etiam ut Pictura erat Poeſis;</l>
+               <l>Alij inde Authores materies Ingenio Tuo accedunt,</l>
+               <l>Tu illis Ars, et Lima adderis.</l>
+               <l>Et ſi Poetae audient Illi, Tu Ipſa Poeſis;</l>
+               <l>Authorum non alius Calamus, ſed Author.</l>
+               <l>Scriptores Diu ſollicitos Teipſo tandem docens,</l>
+               <l>Quem debet Genium habere victurus Liber.</l>
+               <l>Qui praeceſſerunt, quotquot erant viarum tantùm Judices fuerunt,</l>
+               <l>Tu ſolùm Columna.</l>
+               <l>Quae prodeſt alijs virtus, obſtat Domino.</l>
+               <l>Et qui caeteros emendatiùs tranſcripſeras,</l>
+               <l>Ipſe tranſcribi neſcis.</l>
+               <l>Par Prioribus congreſſus, Futuris Impar,</l>
+               <l>Scenae perpetuus Dictator.</l>
+               <byline>ROB. WARING.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="71" facs="tcp:173154:44"/>
+               <head>Epitaphium in BEN: IONSON.</head>
+               <l>ADſta hoſpes: pretium morae est, ſub iſto</l>
+               <l>Quid ſit, diſcere, conditum Sepulchro.</l>
+               <l>Socci deliciae; decus Cothurni;</l>
+               <l>Scenae pompa; cor &amp; caput Theatri;</l>
+               <l>Linguarum ſacer helluo; perennis</l>
+               <l>Defluxus venerum; ſcatebra ſalſi</l>
+               <l>Currens lene joci, ſed innocentis;</l>
+               <l>Artis perſpicuum jubar; coruſcum</l>
+               <l>Sydus; judicij pumex, profundus</l>
+               <l>Doctrinae puteus, tamen ſerenus;</l>
+               <l>Scriptorum genius; Poeticus Dux,</l>
+               <l>Quantum O ſub rigido latet lapillo!</l>
+               <byline>
+                  <hi>WILLIAM BEW.</hi> N. Coll. Oxon. ſoc.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="72" facs="tcp:173154:45"/>
+               <head>In Obitum BEN. IONSON.</head>
+               <l>NEc ſic excidimus: pars tantùm vilior audit</l>
+               <l>Imperium Libitina tuum, coeleſtior urget</l>
+               <l>Aethereos tractus, mediaſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſupervolat Auras,</l>
+               <l>Et velut effuſum ſpiſſa inter nubila lumen</l>
+               <l>Ingenij ſtrictura micat, foelicior ille,</l>
+               <l>Quiſquis ab hoc victuram actavit <hi>Lampada Phoebo.</hi>
+               </l>
+               <l>In famulante faces accendimus, id<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſeverae,</l>
+               <l>Quod damus alterius vitae, concedimus <g ref="char:V">Ʋ</g>mbrae.</l>
+               <l>Sic Caput <hi>Iſmarij,</hi> caeſâ cervice, <hi>Poetae,</hi>
+               </l>
+               <l>Neſcio quid rapido vocale immurmurat <hi>Hebro,</hi>
+               </l>
+               <l>
+                  <hi>Memnonis</hi> adverſo ſic ſtridit Chordula <hi>Phoebo,</hi>
+               </l>
+               <l>Dat<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> modos magicos, tenueſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> reciprocat Auras:</l>
+               <l>Seu Tu Grandiloqui torques vaga froena <hi>Theatri,</hi>
+               </l>
+               <l>En Tibi vox geminis applaudit publica Palmis;</l>
+               <l>Seu juvat in Numeros, palantes cogere voces</l>
+               <l>
+                  <hi>Maeoniâ JONSONE</hi> cheli, Te pronus amantum</l>
+               <l>Proſequitur Coetus, ſtudioſo imitamine vatum.</l>
+               <l>
+                  <hi>BENIAMINI</hi> inſignis quondam quintuplice ditis</l>
+               <l>Suffitu Menſae, denſa<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> paropſide, ſed Tu</l>
+               <l>Millenâ plus parte alios excedis, et Auctis</l>
+               <l>Accumulas dapibus, propriâ de dote, Placentam.</l>
+               <byline>
+                  <hi>SAM. EVANS,</hi> L L. Bacc. No. Coll. Oxon. Soc.</byline>
+            </div>
+            <div type="elegy">
+               <pb n="73" facs="tcp:173154:45"/>
+               <l>OVèd Martes Epico tonat Cothurno,</l>
+               <l>Sive aptat Elegis leves Amores,</l>
+               <l>Seu ſales Epigrammatum jocoſos</l>
+               <l>Promit, ſeu numeroſiora plectro</l>
+               <l>Jungit verba, ſibi ſecundat orſa</l>
+               <l>
+                  <hi>Cyrrhaeus,</hi> nec <hi>Hyantiae</hi> ſorores</l>
+               <l>
+                  <g ref="char:V">Ʋ</g>lli dexterius favent <hi>Poetae,</hi>
+               </l>
+               <l>Hoc cùm <hi>Maeonide</hi> ſibi et <hi>Marone,</hi>
+               </l>
+               <l>Et cum <hi>Callimacho,</hi> et ſimul <hi>Tibullo</hi>
+               </l>
+               <l>Commune est, alijſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> cum trecentis:</l>
+               <l>Sed quòd <hi>Anglia</hi> quotquot eruditos</l>
+               <l>Foecundo ediderit ſinu <hi>Poetas</hi>
+               </l>
+               <l>Acceptos referat ſibi, ſua omnes</l>
+               <l>Hos induſtria finxerit, laboſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>
+                  <hi>IONSONI,</hi> Hoc proprium est ſuum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> totum,</l>
+               <l>Qui Poëmata fecit et <hi>Poetas.</hi>
+               </l>
+               <byline>
+                  <hi>R. BRIDEOAKE.</hi> A. M. N. C. Oxon.</byline>
+            </div>
+            <div type="poem">
+               <pb n="74" facs="tcp:173154:46"/>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="imprimatur">
+            <opener>
+               <date>Ian. <hi>23. 1637.</hi>
+               </date>
+            </opener>
+            <p>Jmprimatur,</p>
+            <closer>
+               <signed>
+                  <hi>THO: WYKES,</hi> R. P. Epiſc. Lond: Capell: Domeſt.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:173154:46"/>
+         </div>
+      </back>
+   </text>
+</TEI>
